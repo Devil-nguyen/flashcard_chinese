@@ -7,57 +7,57 @@
   {
     "Pinyin":"líng",
     "Chinese":"零",
-    "Meaning":"số 0"
+    "Meaning":0
   },
   {
     "Pinyin":"yī",
     "Chinese":"一",
-    "Meaning":"số 1"
+    "Meaning":1
   },
   {
     "Pinyin":"èr",
     "Chinese":"二",
-    "Meaning":"số 2"
+    "Meaning":2
   },
   {
     "Pinyin":"sān",
     "Chinese":"三",
-    "Meaning":"số 3"
+    "Meaning":3
   },
   {
     "Pinyin":"sì",
     "Chinese":"四",
-    "Meaning":"số 4"
+    "Meaning":4
   },
   {
     "Pinyin":"wǔ",
     "Chinese":"五",
-    "Meaning":"số 5"
+    "Meaning":5
   },
   {
     "Pinyin":"liù",
     "Chinese":"六",
-    "Meaning":"số 6"
+    "Meaning":6
   },
   {
     "Pinyin":"qī",
     "Chinese":"七",
-    "Meaning":"số 7"
+    "Meaning":7
   },
   {
     "Pinyin":"bā",
     "Chinese":"八",
-    "Meaning":"số 8"
+    "Meaning":8
   },
   {
     "Pinyin":"jiǔ",
     "Chinese":"九",
-    "Meaning":"số 9"
+    "Meaning":9
   },
   {
     "Pinyin":"shí",
     "Chinese":"十",
-    "Meaning":"số 10"
+    "Meaning":10
   },
   {
     "Pinyin":"yībǎi",
@@ -292,7 +292,7 @@
   {
     "Pinyin":"ālābó yǔ",
     "Chinese":"阿拉伯语",
-    "Meaning":"Tiếng Pháp Ả Rập"
+    "Meaning":"Tiếng Ả Rập"
   },
   {
     "Pinyin":"déyǔ",
@@ -2191,7 +2191,7 @@
   },
   {
     "Pinyin":"mótuō chē",
-    "Chinese":"魔图车",
+    "Chinese":"摩图车",
     "Meaning":"xe máy"
   },
   {
@@ -3155,6 +3155,141 @@
     "Meaning":"thể thao"
   },
   {
+    "Pinyin":"bāoguǒ",
+    "Chinese":"包裹",
+    "Meaning":"bưu phẩm; bưu kiện"
+  },
+  {
+    "Pinyin":"shùnbiàn",
+    "Chinese":"顺便",
+    "Meaning":"thuận tiện"
+  },
+  {
+    "Pinyin":"tì",
+    "Chinese":"替",
+    "Meaning":"thay thế"
+  },
+  {
+    "Pinyin":"yóupiào",
+    "Chinese":"邮票",
+    "Meaning":"con tem"
+  },
+  {
+    "Pinyin":"qīngnián",
+    "Chinese":"青年",
+    "Meaning":"thanh niên"
+  },
+  {
+    "Pinyin":"bào",
+    "Chinese":"报",
+    "Meaning":"báo (giấy, điện tử...)"
+  },
+  {
+    "Pinyin":"fèn",
+    "Chinese":"份",
+    "Meaning":"suất; phần"
+  },
+  {
+    "Pinyin":"Yī fèn bàozhǐ",
+    "Chinese":"一份报纸",
+    "Meaning":"1 phần báo"
+  },
+  {
+    "Pinyin":"Yī fèn mǐfàn",
+    "Chinese":"一份米饭",
+    "Meaning":"1 suất cơm"
+  },
+  {
+    "Pinyin":"Yī fèn gōngzuò",
+    "Chinese":"一份工作",
+    "Meaning":"1 công việc"
+  },
+  {
+    "Pinyin":"ná",
+    "Chinese":"拿",
+    "Meaning":"cầm"
+  },
+  {
+    "Pinyin":"Ná qián",
+    "Chinese":"拿钱",
+    "Meaning":"cầm tiền"
+  },
+  {
+    "Pinyin":"Ná shǒujī",
+    "Chinese":"拿手机",
+    "Meaning":"cầm điện thoại"
+  },
+  {
+    "Pinyin":"yòng",
+    "Chinese":"用",
+    "Meaning":"sử dụng"
+  },
+  {
+    "Pinyin":"yǒuyòng",
+    "Chinese":"有用",
+    "Meaning":"hữu dụng; có ích"
+  },
+  {
+    "Pinyin":"méi yòng",
+    "Chinese":"没用",
+    "Meaning":"vô dụng"
+  },
+  {
+    "Pinyin":"bùyòng",
+    "Chinese":"不用",
+    "Meaning":"không cần"
+  },
+  {
+    "Pinyin":"dàibiǎo",
+    "Chinese":"代表",
+    "Meaning":"đại biểu"
+  },
+  {
+    "Pinyin":"tuán",
+    "Chinese":"团",
+    "Meaning":"đoàn"
+  },
+  {
+    "Pinyin":"cānguān",
+    "Chinese":"参观",
+    "Meaning":"tham quan"
+  },
+  {
+    "Pinyin":"dāng",
+    "Chinese":"当",
+    "Meaning":"làm (chức trách, nhiệm vụ, chức danh)"
+  },
+  {
+    "Pinyin":"jiānglái",
+    "Chinese":"将来",
+    "Meaning":"sau này"
+  },
+  {
+    "Pinyin":"fānyì",
+    "Chinese":"翻译",
+    "Meaning":"phiên dịch"
+  },
+  {
+    "Pinyin":"Dāng fānyì",
+    "Chinese":"当翻译",
+    "Meaning":"làm phiên dịch"
+  },
+  {
+    "Pinyin":"huǒchē",
+    "Chinese":"火车",
+    "Meaning":"xe lửa"
+  },
+  {
+    "Pinyin":"bàn",
+    "Chinese":"办",
+    "Meaning":"làm công việc, việc chung, chính sự, hành chính"
+  },
+  {
+    "Pinyin":"bāng",
+    "Chinese":"帮",
+    "Meaning":"giúp"
+  },
+  {
     "Pinyin":"yǔróngfú",
     "Chinese":"羽绒服",
     "Meaning":"áo lông vũ"
@@ -3183,5 +3318,105 @@
     "Pinyin":"duǎn",
     "Chinese":"短",
     "Meaning":"ngắn"
+  },
+  {
+    "Pinyin":"shēn",
+    "Chinese":"深",
+    "Meaning":"đậm; sâu"
+  },
+  {
+    "Pinyin":"qiǎn",
+    "Chinese":"浅",
+    "Meaning":"nông; nhạt"
+  },
+  {
+    "Pinyin":"kěyǐ",
+    "Chinese":"可以",
+    "Meaning":"có thể; được phép"
+  },
+  {
+    "Pinyin":"dāngrán",
+    "Chinese":"当然",
+    "Meaning":"tất nhiên; đương nhiên"
+  },
+  {
+    "Pinyin":"féi",
+    "Chinese":"肥",
+    "Meaning":"Béo (quần áo rộng, thịt mỡ)"
+  },
+  {
+    "Pinyin":"shòu",
+    "Chinese":"瘦",
+    "Meaning":"gầy"
+  },
+  {
+    "Pinyin":"féi ròu",
+    "Chinese":"肥肉",
+    "Meaning":"thịt mỡ"
+  },
+  {
+    "Pinyin":"héshì",
+    "Chinese":"合适",
+    "Meaning":"phù hợp, thích hợp (Tính từ)"
+  },
+  {
+    "Pinyin":"shìhé",
+    "Chinese":"适合",
+    "Meaning":"Hợp, phù hợp (V)"
+  },
+  {
+    "Pinyin":"měilì",
+    "Chinese":"美丽",
+    "Meaning":"Đẹp, lộng lẫy, diễm lệ"
+  },
+  {
+    "Pinyin":"piàoliang",
+    "Chinese":"漂亮",
+    "Meaning":"xinh đẹp"
+  },
+  {
+    "Pinyin":"dǎzhé",
+    "Chinese":"打折",
+    "Meaning":"giảm giá"
+  },
+  {
+    "Pinyin":"fēn zhī",
+    "Chinese":"分之",
+    "Meaning":"chia"
+  },
+  {
+    "Pinyin":"yīnggāi",
+    "Chinese":"应该",
+    "Meaning":"nên; chắc"
+  },
+  {
+    "Pinyin":"tīng shuō",
+    "Chinese":"听说",
+    "Meaning":"nghe nói"
+  },
+  {
+    "Pinyin":"dōngtiān",
+    "Chinese":"冬天",
+    "Meaning":"mùa đông"
+  },
+  {
+    "Pinyin":"jīchǎng",
+    "Chinese":"机场",
+    "Meaning":"sân bay"
+  },
+  {
+    "Pinyin":"jiē",
+    "Chinese":"接",
+    "Meaning":"đón"
+  },
+  {
+    "Pinyin":"néng",
+    "Chinese":"能",
+    "Meaning":"có thể"
+  },
+  {
+    "Pinyin":"zhǎnlǎn",
+    "Chinese":"展览",
+    "Meaning":"buổi triển lãm"
   }
 ]
