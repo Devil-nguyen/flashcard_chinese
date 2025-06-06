@@ -1,0 +1,3422 @@
+[
+  {
+    "Pinyin":"Ruǎnwényǒng",
+    "Meaning":"nguyễn văn dũng",
+    "Chinese":"阮文勇"
+  },
+  {
+    "Pinyin":"líng",
+    "Meaning":"số 0",
+    "Chinese":"零"
+  },
+  {
+    "Pinyin":"yī",
+    "Meaning":"số 1",
+    "Chinese":"一"
+  },
+  {
+    "Pinyin":"èr",
+    "Meaning":"số 2",
+    "Chinese":"二"
+  },
+  {
+    "Pinyin":"sān",
+    "Meaning":"số 3",
+    "Chinese":"三"
+  },
+  {
+    "Pinyin":"sì",
+    "Meaning":"số 4",
+    "Chinese":"四"
+  },
+  {
+    "Pinyin":"wǔ",
+    "Meaning":"số 5",
+    "Chinese":"五"
+  },
+  {
+    "Pinyin":"liù",
+    "Meaning":"số 6",
+    "Chinese":"六"
+  },
+  {
+    "Pinyin":"qī",
+    "Meaning":"số 7",
+    "Chinese":"七"
+  },
+  {
+    "Pinyin":"bā",
+    "Meaning":"số 8",
+    "Chinese":"八"
+  },
+  {
+    "Pinyin":"jiǔ",
+    "Meaning":"số 9",
+    "Chinese":"九"
+  },
+  {
+    "Pinyin":"shí",
+    "Meaning":"số 10",
+    "Chinese":"十"
+  },
+  {
+    "Pinyin":"yībǎi",
+    "Meaning":"một trăm",
+    "Chinese":"一百"
+  },
+  {
+    "Pinyin":"nǐ",
+    "Meaning":"bạn",
+    "Chinese":"你"
+  },
+  {
+    "Pinyin":"hǎo",
+    "Meaning":"tốt",
+    "Chinese":"好"
+  },
+  {
+    "Pinyin":"nǚ",
+    "Meaning":"nữ",
+    "Chinese":"女"
+  },
+  {
+    "Pinyin":"dà",
+    "Meaning":"to",
+    "Chinese":"大"
+  },
+  {
+    "Pinyin":"bù",
+    "Meaning":"không",
+    "Chinese":"不"
+  },
+  {
+    "Pinyin":"bái",
+    "Meaning":"trắng",
+    "Chinese":"白"
+  },
+  {
+    "Pinyin":"mǎ",
+    "Meaning":"con ngựa",
+    "Chinese":"马"
+  },
+  {
+    "Pinyin":"máng",
+    "Meaning":"bận",
+    "Chinese":"忙"
+  },
+  {
+    "Pinyin":"ma",
+    "Meaning":"không",
+    "Chinese":"吗"
+  },
+  {
+    "Pinyin":"hěn",
+    "Meaning":"rất",
+    "Chinese":"很"
+  },
+  {
+    "Pinyin":"Hànyǔ",
+    "Meaning":"tiếng hán",
+    "Chinese":"汉语"
+  },
+  {
+    "Pinyin":"nán",
+    "Meaning":"khó",
+    "Chinese":"难"
+  },
+  {
+    "Pinyin":"tài",
+    "Meaning":"quá",
+    "Chinese":"太"
+  },
+  {
+    "Pinyin":"bàba",
+    "Meaning":"bố",
+    "Chinese":"爸爸"
+  },
+  {
+    "Pinyin":"māma",
+    "Meaning":"mẹ",
+    "Chinese":"妈妈"
+  },
+  {
+    "Pinyin":"gēge",
+    "Meaning":"anh trai",
+    "Chinese":"哥哥"
+  },
+  {
+    "Pinyin":"dìdi",
+    "Meaning":"em trai",
+    "Chinese":"弟弟"
+  },
+  {
+    "Pinyin":"mèimei",
+    "Meaning":"em gái",
+    "Chinese":"妹妹"
+  },
+  {
+    "Pinyin":"jiě jie",
+    "Meaning":"chị gái",
+    "Chinese":"姐姐"
+  },
+  {
+    "Pinyin":"wǒ",
+    "Meaning":"tôi",
+    "Chinese":"我"
+  },
+  {
+    "Pinyin":"tā",
+    "Meaning":"anh ấy",
+    "Chinese":"他"
+  },
+  {
+    "Pinyin":"tā",
+    "Meaning":"cô ấy",
+    "Chinese":"她"
+  },
+  {
+    "Pinyin":"yě",
+    "Meaning":"cũng",
+    "Chinese":"也"
+  },
+  {
+    "Pinyin":"nán",
+    "Meaning":"đàn ông",
+    "Chinese":"男"
+  },
+  {
+    "Pinyin":"zì",
+    "Meaning":"tự",
+    "Chinese":"自"
+  },
+  {
+    "Pinyin":"jièshào",
+    "Meaning":"giới thiệu",
+    "Chinese":"介绍"
+  },
+  {
+    "Pinyin":"zìwǒ jièshào",
+    "Meaning":"tự tôi giới thiệu",
+    "Chinese":"自我介绍"
+  },
+  {
+    "Pinyin":"qǐng",
+    "Meaning":"mời",
+    "Chinese":"请"
+  },
+  {
+    "Pinyin":"Qǐng nǐ zìwǒ jièshào",
+    "Meaning":"mời bạn giới thiệu bản thân mình",
+    "Chinese":"请你自我介绍"
+  },
+  {
+    "Pinyin":"lái",
+    "Meaning":"đến, để",
+    "Chinese":"来"
+  },
+  {
+    "Pinyin":"yīxià",
+    "Meaning":"một chút",
+    "Chinese":"一下"
+  },
+  {
+    "Pinyin":"Wǒ lái jièshào yīxià",
+    "Meaning":"để tôi giới thiệu một chút",
+    "Chinese":"我来介绍一下"
+  },
+  {
+    "Pinyin":"shì",
+    "Meaning":"là",
+    "Chinese":"是"
+  },
+  {
+    "Pinyin":"jiào",
+    "Meaning":"gọi",
+    "Chinese":"叫"
+  },
+  {
+    "Pinyin":"jīnnián",
+    "Meaning":"năm nay",
+    "Chinese":"今年"
+  },
+  {
+    "Pinyin":"suì",
+    "Meaning":"tuổi",
+    "Chinese":"岁"
+  },
+  {
+    "Pinyin":"Yuènán",
+    "Meaning":"Việt Nam",
+    "Chinese":"越南"
+  },
+  {
+    "Pinyin":"rén",
+    "Meaning":"người",
+    "Chinese":"人"
+  },
+  {
+    "Pinyin":"jiā",
+    "Meaning":"nhà",
+    "Chinese":"家"
+  },
+  {
+    "Pinyin":"zài",
+    "Meaning":"ở",
+    "Chinese":"在"
+  },
+  {
+    "Pinyin":"shěng",
+    "Meaning":"tỉnh",
+    "Chinese":"省"
+  },
+  {
+    "Pinyin":"shì",
+    "Meaning":"thành phố",
+    "Chinese":"市"
+  },
+  {
+    "Pinyin":"xué",
+    "Meaning":"học",
+    "Chinese":"学"
+  },
+  {
+    "Pinyin":"xuéxí",
+    "Meaning":"học tập",
+    "Chinese":"学习"
+  },
+  {
+    "Pinyin":"Yīngyǔ",
+    "Meaning":"Tiếng Anh",
+    "Chinese":"英语"
+  },
+  {
+    "Pinyin":"ālābó yǔ",
+    "Meaning":"Tiếng Ả Rập",
+    "Chinese":"阿拉伯语"
+  },
+  {
+    "Pinyin":"déyǔ",
+    "Meaning":"tiếng Đức",
+    "Chinese":"德语"
+  },
+  {
+    "Pinyin":"èyǔ",
+    "Meaning":"tiếng Nga",
+    "Chinese":"俄语"
+  },
+  {
+    "Pinyin":"fǎyǔ",
+    "Meaning":"tiếng Pháp",
+    "Chinese":"法语"
+  },
+  {
+    "Pinyin":"hánguó yǔ",
+    "Meaning":"tiếng Hàn",
+    "Chinese":"韩国语"
+  },
+  {
+    "Pinyin":"rìyǔ",
+    "Meaning":"tiếng Nhật",
+    "Chinese":"日语"
+  },
+  {
+    "Pinyin":"xībānyá yǔ",
+    "Meaning":"tiếng Tây Ban Nha",
+    "Chinese":"西班牙语"
+  },
+  {
+    "Pinyin":"rìběn",
+    "Meaning":"Nhật Bản",
+    "Chinese":"日本"
+  },
+  {
+    "Pinyin":"měiguó",
+    "Meaning":"nước Mỹ",
+    "Chinese":"美国"
+  },
+  {
+    "Pinyin":"đối với",
+    "Meaning":"đúng",
+    "Chinese":"对"
+  },
+  {
+    "Pinyin":"rì",
+    "Meaning":"ngày",
+    "Chinese":"日"
+  },
+  {
+    "Pinyin":"yuè",
+    "Meaning":"tháng",
+    "Chinese":"月"
+  },
+  {
+    "Pinyin":"jiàn",
+    "Meaning":"gặp",
+    "Chinese":"见"
+  },
+  {
+    "Pinyin":"qù",
+    "Meaning":"đi",
+    "Chinese":"去"
+  },
+  {
+    "Pinyin":"yóujú",
+    "Meaning":"bưu điện",
+    "Chinese":"邮局"
+  },
+  {
+    "Pinyin":"jì",
+    "Meaning":"gửi",
+    "Chinese":"寄"
+  },
+  {
+    "Pinyin":"xìn",
+    "Meaning":"thư",
+    "Chinese":"信"
+  },
+  {
+    "Pinyin":"yínháng",
+    "Meaning":"ngân hàng",
+    "Chinese":"银行"
+  },
+  {
+    "Pinyin":"qǔ",
+    "Meaning":"rút",
+    "Chinese":"取"
+  },
+  {
+    "Pinyin":"qián",
+    "Meaning":"tiền",
+    "Chinese":"钱"
+  },
+  {
+    "Pinyin":"běijīng",
+    "Meaning":"Bắc Kinh",
+    "Chinese":"北京"
+  },
+  {
+    "Pinyin":"jǐ",
+    "Meaning":"mấy",
+    "Chinese":"几"
+  },
+  {
+    "Pinyin":"nàr ",
+    "Meaning":"chỗ ấy; nơi ấy; đằng kia",
+    "Chinese":"那儿"
+  },
+  {
+    "Pinyin":"nǎr",
+    "Meaning":"đâu; chỗ nào",
+    "Chinese":"哪儿"
+  },
+  {
+    "Pinyin":"huí jiā",
+    "Meaning":"về nhà",
+    "Chinese":"回家"
+  },
+  {
+    "Pinyin":"Huí yuènán",
+    "Meaning":"về Việt Nam",
+    "Chinese":"回越南"
+  },
+  {
+    "Pinyin":"xuéxiào",
+    "Meaning":"trường học",
+    "Chinese":"学校"
+  },
+  {
+    "Pinyin":"zàijiàn",
+    "Meaning":"tạm biệt",
+    "Chinese":"再见"
+  },
+  {
+    "Pinyin":"bàibài",
+    "Meaning":"tạm biệt",
+    "Chinese":"拜拜"
+  },
+  {
+    "Pinyin":"duìbuqǐ",
+    "Meaning":"xin lỗi",
+    "Chinese":"对不起"
+  },
+  {
+    "Pinyin":"méiguānxi",
+    "Meaning":"không sao đâu",
+    "Chinese":"没关系"
+  },
+  {
+    "Pinyin":"xièxie",
+    "Meaning":"cảm ơn",
+    "Chinese":"谢谢"
+  },
+  {
+    "Pinyin":"bù kèqì",
+    "Meaning":"đừng khách sáo",
+    "Chinese":"不客气"
+  },
+  {
+    "Pinyin":"hào",
+    "Meaning":"ngày",
+    "Chinese":"号"
+  },
+  {
+    "Pinyin":"tiān",
+    "Meaning":"ngày",
+    "Chinese":"天"
+  },
+  {
+    "Pinyin":"qiántiān",
+    "Meaning":"hôm kia",
+    "Chinese":"前天"
+  },
+  {
+    "Pinyin":"zuótiān",
+    "Meaning":"hôm qua",
+    "Chinese":"昨天"
+  },
+  {
+    "Pinyin":"jīn tiān",
+    "Meaning":"hôm nay",
+    "Chinese":"今天"
+  },
+  {
+    "Pinyin":"míngtiān",
+    "Meaning":"ngày mai",
+    "Chinese":"明天"
+  },
+  {
+    "Pinyin":"hòutiān",
+    "Meaning":"hai ngày sau",
+    "Chinese":"后天"
+  },
+  {
+    "Pinyin":"dàhòutiān",
+    "Meaning":"ba ngày sau",
+    "Chinese":"大后天"
+  },
+  {
+    "Pinyin":"è ",
+    "Meaning":"đói",
+    "Chinese":"饿"
+  },
+  {
+    "Pinyin":"xíng",
+    "Meaning":"được ",
+    "Chinese":"行"
+  },
+  {
+    "Pinyin":"xīngqī",
+    "Meaning":"thứ; tuần",
+    "Chinese":"星期"
+  },
+  {
+    "Pinyin":"tiān'ānmén",
+    "Meaning":"Thiên An Môn",
+    "Chinese":"天安门"
+  },
+  {
+    "Pinyin":"hé",
+    "Meaning":"và; với",
+    "Chinese":"和"
+  },
+  {
+    "Pinyin":"zhè",
+    "Meaning":"đây; này",
+    "Chinese":"这"
+  },
+  {
+    "Pinyin":"de",
+    "Meaning":"của",
+    "Chinese":"的"
+  },
+  {
+    "Pinyin":"shì bùshì",
+    "Meaning":"phải không",
+    "Chinese":"是不是"
+  },
+  {
+    "Pinyin":"lǎoshī",
+    "Meaning":"giáo viên",
+    "Chinese":"老师"
+  },
+  {
+    "Pinyin":"men",
+    "Meaning":"chúng",
+    "Chinese":"们"
+  },
+  {
+    "Pinyin":"wǒmen",
+    "Meaning":"chúng tôi",
+    "Chinese":"我们"
+  },
+  {
+    "Pinyin":"nín",
+    "Meaning":"ngài; ông",
+    "Chinese":"您"
+  },
+  {
+    "Pinyin":"jìn",
+    "Meaning":"vào",
+    "Chinese":"进"
+  },
+  {
+    "Pinyin":"zuò",
+    "Meaning":"ngồi",
+    "Chinese":"坐"
+  },
+  {
+    "Pinyin":"hē",
+    "Meaning":"uống",
+    "Chinese":"喝"
+  },
+  {
+    "Pinyin":"chá",
+    "Meaning":"trà",
+    "Chinese":"茶"
+  },
+  {
+    "Pinyin":"kèqì",
+    "Meaning":"khách khí",
+    "Chinese":"客气"
+  },
+  {
+    "Pinyin":"gōngzuò",
+    "Meaning":"làm việc",
+    "Chinese":"工作"
+  },
+  {
+    "Pinyin":"shēntǐ",
+    "Meaning":"thân thể",
+    "Chinese":"身体"
+  },
+  {
+    "Pinyin":"xiān sheng",
+    "Meaning":"ngài",
+    "Chinese":"先生"
+  },
+  {
+    "Pinyin":"nǚshì",
+    "Meaning":"quý bà",
+    "Chinese":"女士"
+  },
+  {
+    "Pinyin":"jīnglǐ",
+    "Meaning":"giám đốc",
+    "Chinese":"经理"
+  },
+  {
+    "Pinyin":"zǒng",
+    "Meaning":"tổng",
+    "Chinese":"总"
+  },
+  {
+    "Pinyin":"gēn",
+    "Meaning":"cùng",
+    "Chinese":"跟"
+  },
+  {
+    "Pinyin":"wèi",
+    "Meaning":"vị",
+    "Chinese":"位"
+  },
+  {
+    "Pinyin":"míngzi",
+    "Meaning":"tên",
+    "Chinese":"名字"
+  },
+  {
+    "Pinyin":"guó",
+    "Meaning":"quốc",
+    "Chinese":"国"
+  },
+  {
+    "Pinyin":"láizì",
+    "Meaning":"đến từ",
+    "Chinese":"来自"
+  },
+  {
+    "Pinyin":"qǐngwèn",
+    "Meaning":"xin hỏi",
+    "Chinese":"请问"
+  },
+  {
+    "Pinyin":"wèn",
+    "Meaning":"hỏi",
+    "Chinese":"问"
+  },
+  {
+    "Pinyin":"guìxìng",
+    "Meaning":"họ",
+    "Chinese":"贵姓"
+  },
+  {
+    "Pinyin":"nǎ",
+    "Meaning":"nào",
+    "Chinese":"哪"
+  },
+  {
+    "Pinyin":"guójiā",
+    "Meaning":"quốc gia",
+    "Chinese":"国家"
+  },
+  {
+    "Pinyin":"hànzi",
+    "Meaning":"hán tự",
+    "Chinese":"汉子"
+  },
+  {
+    "Pinyin":"běi",
+    "Meaning":"phía bắc",
+    "Chinese":"北"
+  },
+  {
+    "Pinyin":"nán",
+    "Meaning":"phía nam",
+    "Chinese":"南"
+  },
+  {
+    "Pinyin":"xī",
+    "Meaning":"hướng tây",
+    "Chinese":"西"
+  },
+  {
+    "Pinyin":"dōng",
+    "Meaning":"phía đông",
+    "Chinese":"东"
+  },
+  {
+    "Pinyin":"zhuōzi",
+    "Meaning":"cái bàn",
+    "Chinese":"桌子"
+  },
+  {
+    "Pinyin":"邮包",
+    "Meaning":"bưu kiện",
+    "Chinese":"邮包"
+  },
+  {
+    "Pinyin":"zǎoshang",
+    "Meaning":"sáng sớm",
+    "Chinese":"早上"
+  },
+  {
+    "Pinyin":"shàngwǔ",
+    "Meaning":"buổi sáng",
+    "Chinese":"上午"
+  },
+  {
+    "Pinyin":"zhōngwǔ",
+    "Meaning":"buổi trưa",
+    "Chinese":"中午"
+  },
+  {
+    "Pinyin":"xiàwǔ",
+    "Meaning":"buổi chiều",
+    "Chinese":"下午"
+  },
+  {
+    "Pinyin":"wǎnshàng",
+    "Meaning":"tối; buổi tối",
+    "Chinese":"晚上"
+  },
+  {
+    "Pinyin":"chī",
+    "Meaning":"ăn",
+    "Chinese":"吃"
+  },
+  {
+    "Pinyin":"fàn",
+    "Meaning":"cơm",
+    "Chinese":"饭"
+  },
+  {
+    "Pinyin":"shítáng",
+    "Meaning":"căng tin",
+    "Chinese":"食堂"
+  },
+  {
+    "Pinyin":"mántou",
+    "Meaning":"màn thầu",
+    "Chinese":"馒头"
+  },
+  {
+    "Pinyin":"bāozi",
+    "Meaning":"bánh bao",
+    "Chinese":"包子"
+  },
+  {
+    "Pinyin":"mǐfàn",
+    "Meaning":"cơm",
+    "Chinese":"米饭"
+  },
+  {
+    "Pinyin":"yào",
+    "Meaning":"muốn",
+    "Chinese":"要"
+  },
+  {
+    "Pinyin":"gè",
+    "Meaning":" cái; con",
+    "Chinese":"个"
+  },
+  {
+    "Pinyin":"wǎn",
+    "Meaning":"bát",
+    "Chinese":"碗"
+  },
+  {
+    "Pinyin":"jīdàn",
+    "Meaning":"trứng gà",
+    "Chinese":"鸡蛋"
+  },
+  {
+    "Pinyin":"tāng",
+    "Meaning":"canh",
+    "Chinese":"汤"
+  },
+  {
+    "Pinyin":"jīdàn tāng",
+    "Meaning":"canh trứng gà",
+    "Chinese":"鸡蛋汤"
+  },
+  {
+    "Pinyin":"píjiǔ",
+    "Meaning":"bia",
+    "Chinese":"啤酒"
+  },
+  {
+    "Pinyin":"jiǔ",
+    "Meaning":"rượu",
+    "Chinese":"酒"
+  },
+  {
+    "Pinyin":"zhèxiē",
+    "Meaning":"những ... Này",
+    "Chinese":"这些"
+  },
+  {
+    "Pinyin":"xiē",
+    "Meaning":"một ít",
+    "Chinese":"些"
+  },
+  {
+    "Pinyin":"nàxiē",
+    "Meaning":"những... Đó",
+    "Chinese":"那些"
+  },
+  {
+    "Pinyin":"jiǎozi",
+    "Meaning":"bánh chẻo",
+    "Chinese":"饺子"
+  },
+  {
+    "Pinyin":"miàntiáor",
+    "Meaning":"mì",
+    "Chinese":"面条儿"
+  },
+  {
+    "Pinyin":"pào miàn",
+    "Meaning":"mì gói; mì ăn liền",
+    "Chinese":"泡面"
+  },
+  {
+    "Pinyin":"fāngbiànmiàn",
+    "Meaning":"mì gói; mì ăn liền",
+    "Chinese":"方便面"
+  },
+  {
+    "Pinyin":"mǎlì",
+    "Meaning":"Mary",
+    "Chinese":"玛丽"
+  },
+  {
+    "Pinyin":"kuàizi",
+    "Meaning":"đũa",
+    "Chinese":"筷子"
+  },
+  {
+    "Pinyin":"cídiǎn",
+    "Meaning":"từ điển",
+    "Chinese":"词典"
+  },
+  {
+    "Pinyin":"diànnǎo",
+    "Meaning":"máy vi tính; máy tính",
+    "Chinese":"电脑"
+  },
+  {
+    "Pinyin":"tái",
+    "Meaning":"cái; cỗ (máy móc)",
+    "Chinese":"台"
+  },
+  {
+    "Pinyin":"sǎn",
+    "Meaning":"ô",
+    "Chinese":"伞"
+  },
+  {
+    "Pinyin":"qìchē",
+    "Meaning":"ô-tô; xe hơi",
+    "Chinese":"汽车"
+  },
+  {
+    "Pinyin":"diànshì",
+    "Meaning":"ti-vi",
+    "Chinese":"电视"
+  },
+  {
+    "Pinyin":"lùyīnjī",
+    "Meaning":"máy ghi âm",
+    "Chinese":"录音机"
+  },
+  {
+    "Pinyin":"shǒujī",
+    "Meaning":"điện thoại",
+    "Chinese":"手机"
+  },
+  {
+    "Pinyin":"shū",
+    "Meaning":"sách",
+    "Chinese":"书"
+  },
+  {
+    "Pinyin":"miànbāo",
+    "Meaning":"bánh mì",
+    "Chinese":"面包"
+  },
+  {
+    "Pinyin":"Niúròu fěn",
+    "Meaning":"Phở bò",
+    "Chinese":"牛肉粉"
+  },
+  {
+    "Pinyin":"nuòmǐ fàn",
+    "Meaning":"xôi",
+    "Chinese":"糯米饭"
+  },
+  {
+    "Pinyin":"Jīdàn chǎo mǐfàn",
+    "Meaning":"Cơm chiên với trứng",
+    "Chinese":"鸡蛋炒米饭"
+  },
+  {
+    "Pinyin":"zhōu",
+    "Meaning":"cháo",
+    "Chinese":"粥"
+  },
+  {
+    "Pinyin":"mǐxiàn",
+    "Meaning":"mì; bún",
+    "Chinese":"米线"
+  },
+  {
+    "Pinyin":"niúnǎi",
+    "Meaning":"sữa bò",
+    "Chinese":"牛奶"
+  },
+  {
+    "Pinyin":"guǒzhī",
+    "Meaning":"nước trái cây",
+    "Chinese":"果汁"
+  },
+  {
+    "Pinyin":"kěkǒu-kělè",
+    "Meaning":"Coca Cola",
+    "Chinese":"可口可乐"
+  },
+  {
+    "Pinyin":"kāfēi",
+    "Meaning":"cà phê",
+    "Chinese":"咖啡"
+  },
+  {
+    "Pinyin":"kuàngquán shuǐ",
+    "Meaning":"nước khoáng; nước suối",
+    "Chinese":"矿泉水"
+  },
+  {
+    "Pinyin":"xìnggé",
+    "Meaning":"tính cách",
+    "Chinese":"性格"
+  },
+  {
+    "Pinyin":"kāilǎng",
+    "Meaning":"vui tính",
+    "Chinese":"开朗"
+  },
+  {
+    "Pinyin":"lèguān",
+    "Meaning":"lạc quan",
+    "Chinese":"乐观"
+  },
+  {
+    "Pinyin":"wàixiàng",
+    "Meaning":"hướng ngoại",
+    "Chinese":"外向"
+  },
+  {
+    "Pinyin":"nèixiàng",
+    "Meaning":"hướng nội",
+    "Chinese":"内向"
+  },
+  {
+    "Pinyin":"wēnhé",
+    "Meaning":"hòa nhã",
+    "Chinese":"温和"
+  },
+  {
+    "Pinyin":"rènxìng",
+    "Meaning":"phóng khoáng",
+    "Chinese":"任性"
+  },
+  {
+    "Pinyin":"ruǎnruò",
+    "Meaning":"yếu đuối",
+    "Chinese":"软弱"
+  },
+  {
+    "Pinyin":"dàfāng",
+    "Meaning":"hào phóng",
+    "Chinese":"大方"
+  },
+  {
+    "Pinyin":"huópō",
+    "Meaning":"hoạt bát",
+    "Chinese":"活泼"
+  },
+  {
+    "Pinyin":"qiānxū",
+    "Meaning":"khiêm tốn",
+    "Chinese":"谦虚"
+  },
+  {
+    "Pinyin":"àihào",
+    "Meaning":"sở thích",
+    "Chinese":"爱好"
+  },
+  {
+    "Pinyin":"xǐhuan",
+    "Meaning":"thích",
+    "Chinese":"喜欢"
+  },
+  {
+    "Pinyin":"zuò fàn",
+    "Meaning":"nấu cơm",
+    "Chinese":"做饭"
+  },
+  {
+    "Pinyin":"shuìjiào",
+    "Meaning":"ngủ",
+    "Chinese":"睡觉"
+  },
+  {
+    "Pinyin":"tīng yīn yuè",
+    "Meaning":"Nghe nhạc",
+    "Chinese":"听音乐"
+  },
+  {
+    "Pinyin":"lǚxíng",
+    "Meaning":"du lịch",
+    "Chinese":"旅行"
+  },
+  {
+    "Pinyin":"Chī língshí",
+    "Meaning":"Ăn đồ ăn vặt",
+    "Chinese":"吃零食"
+  },
+  {
+    "Pinyin":"dúshū",
+    "Meaning":"đọc sách",
+    "Chinese":"读书"
+  },
+  {
+    "Pinyin":"tī zúqiú",
+    "Meaning":"đá bóng",
+    "Chinese":"踢足球"
+  },
+  {
+    "Pinyin":"gòuwù",
+    "Meaning":"mua sắm",
+    "Chinese":"购物"
+  },
+  {
+    "Pinyin":"tiàowǔ",
+    "Meaning":"nhảy múa",
+    "Chinese":"跳舞"
+  },
+  {
+    "Pinyin":"Huà huà",
+    "Meaning":"vẽ tranh",
+    "Chinese":"画画"
+  },
+  {
+    "Pinyin":"diàoyú",
+    "Meaning":"câu cá",
+    "Chinese":"钓鱼"
+  },
+  {
+    "Pinyin":"kàn diàn yǐng",
+    "Meaning":"Xem phim",
+    "Chinese":"看电影"
+  },
+  {
+    "Pinyin":"dàxué",
+    "Meaning":"đại học",
+    "Chinese":"大学"
+  },
+  {
+    "Pinyin":"dà yī",
+    "Meaning":"năm nhất",
+    "Chinese":"大一"
+  },
+  {
+    "Pinyin":"xuéshēng",
+    "Meaning":"học sinh",
+    "Chinese":"学生"
+  },
+  {
+    "Pinyin":"mǎi",
+    "Meaning":"mua",
+    "Chinese":"买"
+  },
+  {
+    "Pinyin":"mài",
+    "Meaning":"bán",
+    "Chinese":"卖"
+  },
+  {
+    "Pinyin":"zuòmǎimai",
+    "Meaning":"buôn bán",
+    "Chinese":"做买卖"
+  },
+  {
+    "Pinyin":"shuǐguǒ",
+    "Meaning":"hoa quả",
+    "Chinese":"水果"
+  },
+  {
+    "Pinyin":"píngguǒ",
+    "Meaning":"táo",
+    "Chinese":"苹果"
+  },
+  {
+    "Pinyin":"jīn",
+    "Meaning":"cân (tương đương nửa cân Việt Nam)",
+    "Chinese":"斤"
+  },
+  {
+    "Pinyin":"gōngjīn",
+    "Meaning":"kg; cân",
+    "Chinese":"公斤"
+  },
+  {
+    "Pinyin":"guì",
+    "Meaning":"đắt",
+    "Chinese":"贵"
+  },
+  {
+    "Pinyin":"piányi",
+    "Meaning":"rẻ",
+    "Chinese":"便宜"
+  },
+  {
+    "Pinyin":"duō",
+    "Meaning":"nhiều",
+    "Chinese":"多"
+  },
+  {
+    "Pinyin":"shǎo",
+    "Meaning":"ít",
+    "Chinese":"少"
+  },
+  {
+    "Pinyin":"duōshao",
+    "Meaning":"bao nhiêu",
+    "Chinese":"多少"
+  },
+  {
+    "Pinyin":"kuài",
+    "Meaning":"đồng,tệ",
+    "Chinese":"块"
+  },
+  {
+    "Pinyin":"yuán",
+    "Meaning":"đồng,tệ",
+    "Chinese":"元"
+  },
+  {
+    "Pinyin":"jiǎo",
+    "Meaning":"hào",
+    "Chinese":"角"
+  },
+  {
+    "Pinyin":"máo",
+    "Meaning":"hào",
+    "Chinese":"毛"
+  },
+  {
+    "Pinyin":"xu",
+    "Meaning":"fēn",
+    "Chinese":"分"
+  },
+  {
+    "Pinyin":"hái",
+    "Meaning":"còn; vẫn; vẫn còn",
+    "Chinese":"还"
+  },
+  {
+    "Pinyin":"bié de ",
+    "Meaning":"khác; cái khác",
+    "Chinese":"别的 "
+  },
+  {
+    "Pinyin":"zázhì",
+    "Meaning":"tạp chí",
+    "Chinese":"杂志"
+  },
+  {
+    "Pinyin":"júzi",
+    "Meaning":"quả quýt; quýt",
+    "Chinese":"橘子"
+  },
+  {
+    "Pinyin":"zěnme",
+    "Meaning":"thế nào; sao; làm sao",
+    "Chinese":"怎么"
+  },
+  {
+    "Pinyin":"liǎng",
+    "Meaning":"hai (chỉ số lượng)",
+    "Chinese":"两"
+  },
+  {
+    "Pinyin":"yīgòng",
+    "Meaning":"tất cả; tổng cộng",
+    "Chinese":"一共"
+  },
+  {
+    "Pinyin":"gěi",
+    "Meaning":"cho; đưa cho",
+    "Chinese":"给"
+  },
+  {
+    "Pinyin":"zhǎo",
+    "Meaning":"tìm; kiếm; trả lại",
+    "Chinese":"找"
+  },
+  {
+    "Pinyin":"túshū guǎn",
+    "Meaning":"thư viện",
+    "Chinese":"图书馆"
+  },
+  {
+    "Pinyin":"huàn",
+    "Meaning":"đổi; trao đổi; tráo đổi",
+    "Chinese":"换"
+  },
+  {
+    "Pinyin":"xiǎojiě",
+    "Meaning":"cô gái trẻ; tiểu thư (con gái nhà quyền quý chưa lấy chồng)",
+    "Chinese":"小姐"
+  },
+  {
+    "Pinyin":"yíngyèyuán",
+    "Meaning":"nhân viên giao dịch",
+    "Chinese":"营业员"
+  },
+  {
+    "Pinyin":"rénmínbì",
+    "Meaning":"nhân dân tệ (tiền Trung Quốc)",
+    "Chinese":"人民币"
+  },
+  {
+    "Pinyin":"měiyuán",
+    "Meaning":"đô la mỹ",
+    "Chinese":"美元"
+  },
+  {
+    "Pinyin":"gǎngbì",
+    "Meaning":"đô la Hồng Kông; tiền Hồng Kông",
+    "Chinese":"港币"
+  },
+  {
+    "Pinyin":"rì yuán",
+    "Meaning":"yên Nhật; đồng yên Nhật",
+    "Chinese":"日元"
+  },
+  {
+    "Pinyin":"ōuyuán",
+    "Meaning":"đồng euro",
+    "Chinese":"欧元"
+  },
+  {
+    "Pinyin":"yuènán dùn",
+    "Meaning":"Việt Nam đồng (VND)",
+    "Chinese":"越南盾"
+  },
+  {
+    "Pinyin":"qiān",
+    "Meaning":"nghìn",
+    "Chinese":"千"
+  },
+  {
+    "Pinyin":"wàn",
+    "Meaning":"vạn; mười nghìn",
+    "Chinese":"万"
+  },
+  {
+    "Pinyin":"yīhuìr",
+    "Meaning":"một lúc; một lát",
+    "Chinese":"一会儿"
+  },
+  {
+    "Pinyin":" yīxiàr",
+    "Meaning":"một chút; một xíu (thời gian ngắn)",
+    "Chinese":"一下儿"
+  },
+  {
+    "Pinyin":"shǔ",
+    "Meaning":"đếm",
+    "Chinese":"数"
+  },
+  {
+    "Pinyin":"shùzì",
+    "Meaning":"số; chữ số; con số",
+    "Chinese":"数字"
+  },
+  {
+    "Pinyin":"yì",
+    "Meaning":"trăm triệu",
+    "Chinese":"亿"
+  },
+  {
+    "Pinyin":"shuō",
+    "Meaning":"nói; kể",
+    "Chinese":"说"
+  },
+  {
+    "Pinyin":"bàngōngshì",
+    "Meaning":"văn phòng; phòng làm việc",
+    "Chinese":"办公室"
+  },
+  {
+    "Pinyin":"zhíyuán",
+    "Meaning":"nhân viên; viên chức",
+    "Chinese":"职员"
+  },
+  {
+    "Pinyin":"zhù",
+    "Meaning":" ở; sống",
+    "Chinese":"住"
+  },
+  {
+    "Pinyin":"zhàn",
+    "Meaning":"đứng",
+    "Chinese":"站"
+  },
+  {
+    "Pinyin":"fàng",
+    "Meaning":"đặt; để",
+    "Chinese":"放"
+  },
+  {
+    "Pinyin":"shuō",
+    "Meaning":"nói; kể",
+    "Chinese":"说"
+  },
+  {
+    "Pinyin":"bàngōngshì",
+    "Meaning":"văn phòng; phòng làm việc",
+    "Chinese":"办公室"
+  },
+  {
+    "Pinyin":"zhíyuán",
+    "Meaning":"nhân viên; viên chức",
+    "Chinese":"职员"
+  },
+  {
+    "Pinyin":"zhù",
+    "Meaning":" ở; sống",
+    "Chinese":"住"
+  },
+  {
+    "Pinyin":"zhàn",
+    "Meaning":"đứng",
+    "Chinese":"站"
+  },
+  {
+    "Pinyin":"fàng",
+    "Meaning":"đặt; để",
+    "Chinese":"放"
+  },
+  {
+    "Pinyin":"tǎng",
+    "Meaning":"nằm",
+    "Chinese":"躺"
+  },
+  {
+    "Pinyin":"ne",
+    "Meaning":"thế; nhỉ; vậy; đâu (dùng để hỏi)",
+    "Chinese":"呢"
+  },
+  {
+    "Pinyin":"ménkǒu",
+    "Meaning":"cửa; cổng",
+    "Chinese":"门口"
+  },
+  {
+    "Pinyin":"lóu",
+    "Meaning":"lầu",
+    "Chinese":"楼"
+  },
+  {
+    "Pinyin":"fángjiān",
+    "Meaning":"gian phòng; phòng",
+    "Chinese":"房间"
+  },
+  {
+    "Pinyin":"zhīdào",
+    "Meaning":"biết",
+    "Chinese":"知道"
+  },
+  {
+    "Pinyin":"diànhuà",
+    "Meaning":"điện thoại",
+    "Chinese":"电话"
+  },
+  {
+    "Pinyin":"dǎ diànhuà",
+    "Meaning":"gọi điện; gọi điện thoại",
+    "Chinese":"打电话"
+  },
+  {
+    "Pinyin":"dìzhǐ",
+    "Meaning":"địa chỉ; chỗ ở",
+    "Chinese":"地址"
+  },
+  {
+    "Pinyin":"jùn",
+    "Meaning":"quận",
+    "Chinese":"郡"
+  },
+  {
+    "Pinyin":"xiàn",
+    "Meaning":"quận; huyện (đơn vị hành chính)",
+    "Chinese":"县"
+  },
+  {
+    "Pinyin":"fāng",
+    "Meaning":"phường",
+    "Chinese":"坊"
+  },
+  {
+    "Pinyin":"xiāng",
+    "Meaning":"xã",
+    "Chinese":"乡"
+  },
+  {
+    "Pinyin":"shè",
+    "Meaning":"xã",
+    "Chinese":"社"
+  },
+  {
+    "Pinyin":"jiē",
+    "Meaning":"phố",
+    "Chinese":"街"
+  },
+  {
+    "Pinyin":"lù",
+    "Meaning":"đường",
+    "Chinese":"路"
+  },
+  {
+    "Pinyin":"xiàng",
+    "Meaning":"ngõ",
+    "Chinese":"巷"
+  },
+  {
+    "Pinyin":"mìshū",
+    "Meaning":"thư ký",
+    "Chinese":"秘书"
+  },
+  {
+    "Pinyin":"xiān",
+    "Meaning":"trước",
+    "Chinese":"先"
+  },
+  {
+    "Pinyin":"ránhòu",
+    "Meaning":"sau đó",
+    "Chinese":"然后"
+  },
+  {
+    "Pinyin":"jiàoshòu",
+    "Meaning":"giáo sư",
+    "Chinese":"教授"
+  },
+  {
+    "Pinyin":"xiàozhǎng",
+    "Meaning":"hiệu trưởng",
+    "Chinese":"校长"
+  },
+  {
+    "Pinyin":"huānyíng",
+    "Meaning":"chào đón; chào mừng",
+    "Chinese":"欢迎"
+  },
+  {
+    "Pinyin":"liúxuéshēng",
+    "Meaning":"du học sinh",
+    "Chinese":"留学生"
+  },
+  {
+    "Pinyin":"dōu",
+    "Meaning":"đều",
+    "Chinese":"都"
+  },
+  {
+    "Pinyin":"bān ",
+    "Meaning":"lớp; lớp học",
+    "Chinese":"班"
+  },
+  {
+    "Pinyin":"bānzhǎng",
+    "Meaning":"lớp trưởng",
+    "Chinese":"班长"
+  },
+  {
+    "Pinyin":"kě'ài",
+    "Meaning":"đáng yêu; dễ thương",
+    "Chinese":"可爱"
+  },
+  {
+    "Pinyin":"liǎ",
+    "Meaning":"đôi",
+    "Chinese":"俩"
+  },
+  {
+    "Pinyin":"tián fāng",
+    "Meaning":"Điền Phương (tên riêng)",
+    "Chinese":"田芳"
+  },
+  {
+    "Pinyin":"luólán",
+    "Meaning":"Roland (tên riêng)",
+    "Chinese":"罗兰"
+  },
+  {
+    "Pinyin":"àidéhuá",
+    "Meaning":"Edward (tên riêng)",
+    "Chinese":"爱德华"
+  },
+  {
+    "Pinyin":"dàifu",
+    "Meaning":"bác sĩ",
+    "Chinese":"大夫"
+  },
+  {
+    "Pinyin":"hùshi",
+    "Meaning":"y tá",
+    "Chinese":"护士"
+  },
+  {
+    "Pinyin":"lǜshī ",
+    "Meaning":"luật sư",
+    "Chinese":"律师"
+  },
+  {
+    "Pinyin":"jìzhě",
+    "Meaning":"nhà báo",
+    "Chinese":"记者"
+  },
+  {
+    "Pinyin":"quánxiàn",
+    "Meaning":"quyền hạn",
+    "Chinese":"权限"
+  },
+  {
+    "Pinyin":"sùdù",
+    "Meaning":"tốc độ",
+    "Chinese":"速度"
+  },
+  {
+    "Pinyin":"cuòwù",
+    "Meaning":"sai lầm",
+    "Chinese":"错误"
+  },
+  {
+    "Pinyin":"zuòyè",
+    "Meaning":"bài tập về nhà",
+    "Chinese":"作业"
+  },
+  {
+    "Pinyin":"cānjiā",
+    "Meaning":"tham gia",
+    "Chinese":"参加"
+  },
+  {
+    "Pinyin":"zēngjiā",
+    "Meaning":"tăng thêm",
+    "Chinese":"增加"
+  },
+  {
+    "Pinyin":"zuìhòu",
+    "Meaning":"cuối cùng",
+    "Chinese":"最后"
+  },
+  {
+    "Pinyin":"dǎsǎo",
+    "Meaning":"dọn dẹp",
+    "Chinese":"打扫"
+  },
+  {
+    "Pinyin":"qùnián",
+    "Meaning":"năm ngoái",
+    "Chinese":"去年"
+  },
+  {
+    "Pinyin":"cāngkù",
+    "Meaning":"kho hàng",
+    "Chinese":"仓库"
+  },
+  {
+    "Pinyin":"pǐnzhì",
+    "Meaning":"chất lượng",
+    "Chinese":"品质"
+  },
+  {
+    "Pinyin":"lǐngbān",
+    "Meaning":"leader",
+    "Chinese":"领班"
+  },
+  {
+    "Pinyin":"báibān",
+    "Meaning":"ca ngày",
+    "Chinese":"白班"
+  },
+  {
+    "Pinyin":"yèbān",
+    "Meaning":"ca đêm",
+    "Chinese":"夜班"
+  },
+  {
+    "Pinyin":"lǐngdǎo",
+    "Meaning":"lãnh đạo",
+    "Chinese":"领导"
+  },
+  {
+    "Pinyin":"shēngchǎn",
+    "Meaning":"sản xuất",
+    "Chinese":"生产"
+  },
+  {
+    "Pinyin":"liáng lǜ",
+    "Meaning":"Tỉ lệ",
+    "Chinese":"良率"
+  },
+  {
+    "Pinyin":"bǎi fēn zhī",
+    "Meaning":"phần trăm",
+    "Chinese":"百分之"
+  },
+  {
+    "Pinyin":"biāozhǔn",
+    "Meaning":"tiêu chuẩn",
+    "Chinese":"标准"
+  },
+  {
+    "Pinyin":"Bù liángpǐn",
+    "Meaning":"NG",
+    "Chinese":"不良品"
+  },
+  {
+    "Pinyin":"Liángpǐn",
+    "Meaning":"OK",
+    "Chinese":"良品"
+  },
+  {
+    "Pinyin":"chējiān",
+    "Meaning":"xưởng",
+    "Chinese":"车间"
+  },
+  {
+    "Pinyin":"chǎn xiàn",
+    "Meaning":"dây chuyền",
+    "Chinese":"产线"
+  },
+  {
+    "Pinyin":"qūbié",
+    "Meaning":"khu vực",
+    "Chinese":"区别"
+  },
+  {
+    "Pinyin":"Fù lǐngbān",
+    "Meaning":"phó leader",
+    "Chinese":"副领班"
+  },
+  {
+    "Pinyin":"Duō néng gōng",
+    "Meaning":"Công nhân đa năng",
+    "Chinese":"多能工"
+  },
+  {
+    "Pinyin":"ānpái",
+    "Meaning":"sắp xếp",
+    "Chinese":"安排"
+  },
+  {
+    "Pinyin":"jìhuà",
+    "Meaning":"kế hoạch",
+    "Chinese":"计划"
+  },
+  {
+    "Pinyin":"chū huò",
+    "Meaning":"xuất hàng",
+    "Chinese":"出货"
+  },
+  {
+    "Pinyin":"bāozhuāng",
+    "Meaning":"đóng gói",
+    "Chinese":"包装"
+  },
+  {
+    "Pinyin":"gāozhōng",
+    "Meaning":"cấp 3; trung học phổ thông",
+    "Chinese":"高中"
+  },
+  {
+    "Pinyin":"Jīngshén kàoshān",
+    "Meaning":"chỗ dựa tinh thần",
+    "Chinese":"精神靠山"
+  },
+  {
+    "Pinyin":"dònglì",
+    "Meaning":"động lực",
+    "Chinese":"动力"
+  },
+  {
+    "Pinyin":"jiānádà ",
+    "Meaning":"Canada",
+    "Chinese":"加拿大"
+  },
+  {
+    "Pinyin":"yìdàlì ",
+    "Meaning":"Ý; Italia",
+    "Chinese":"意大利"
+  },
+  {
+    "Pinyin":"yīdiǎnr",
+    "Meaning":"một chút",
+    "Chinese":"一点儿"
+  },
+  {
+    "Pinyin":"yǔyán",
+    "Meaning":"ngôn ngữ",
+    "Chinese":"语言"
+  },
+  {
+    "Pinyin":"juéde",
+    "Meaning":"cảm thấy",
+    "Chinese":"觉得"
+  },
+  {
+    "Pinyin":"yǔfǎ ",
+    "Meaning":"ngữ pháp",
+    "Chinese":"语法"
+  },
+  {
+    "Pinyin":"tīng",
+    "Meaning":"nghe",
+    "Chinese":"听"
+  },
+  {
+    "Pinyin":"xiě",
+    "Meaning":"viết",
+    "Chinese":"写"
+  },
+  {
+    "Pinyin":"bǐjiào",
+    "Meaning":"tương đối; khá",
+    "Chinese":"比较"
+  },
+  {
+    "Pinyin":"róngyì",
+    "Meaning":"dễ; dễ dàng",
+    "Chinese":"容易"
+  },
+  {
+    "Pinyin":"dànshì",
+    "Meaning":"nhưng; mà; nhưng mà",
+    "Chinese":"但是"
+  },
+  {
+    "Pinyin":"suīrán",
+    "Meaning":"tuy; dù",
+    "Chinese":"虽然"
+  },
+  {
+    "Pinyin":"xīn",
+    "Meaning":"mới",
+    "Chinese":"新"
+  },
+  {
+    "Pinyin":"jiù",
+    "Meaning":"cũ",
+    "Chinese":"旧"
+  },
+  {
+    "Pinyin":"tóngxué",
+    "Meaning":"bạn học",
+    "Chinese":"同学"
+  },
+  {
+    "Pinyin":"tóng wū",
+    "Meaning":"bạn cùng phòng",
+    "Chinese":"同屋"
+  },
+  {
+    "Pinyin":"shéi",
+    "Meaning":"ai",
+    "Chinese":"谁"
+  },
+  {
+    "Pinyin":"lín",
+    "Meaning":"họ Lâm",
+    "Chinese":"林"
+  },
+  {
+    "Pinyin":"shén me",
+    "Meaning":"gì; cái gì",
+    "Chinese":"什么"
+  },
+  {
+    "Pinyin":"měirén",
+    "Meaning":"người đẹp",
+    "Chinese":"美人"
+  },
+  {
+    "Pinyin":"Xiǎo fángjiān",
+    "Meaning":"Phòng nhỏ",
+    "Chinese":"小房间"
+  },
+  {
+    "Pinyin":"wénxué",
+    "Meaning":"văn học",
+    "Chinese":"文学"
+  },
+  {
+    "Pinyin":"lìshǐ",
+    "Meaning":"lịch sử",
+    "Chinese":"历史"
+  },
+  {
+    "Pinyin":"fǎlǜ",
+    "Meaning":"pháp luật",
+    "Chinese":"法律"
+  },
+  {
+    "Pinyin":"jīngjì ",
+    "Meaning":"kinh tế",
+    "Chinese":"经济"
+  },
+  {
+    "Pinyin":"rènshi",
+    "Meaning":"quen biết",
+    "Chinese":"认识"
+  },
+  {
+    "Pinyin":"lǎo",
+    "Meaning":"già",
+    "Chinese":"老"
+  },
+  {
+    "Pinyin":"sùshè",
+    "Meaning":"kí túc xá",
+    "Chinese":"宿舍"
+  },
+  {
+    "Pinyin":"jiàoshì",
+    "Meaning":"lớp học",
+    "Chinese":"教室"
+  },
+  {
+    "Pinyin":"shàngkè ",
+    "Meaning":"lên lớp; vào học; đi học",
+    "Chinese":"上课"
+  },
+  {
+    "Pinyin":"xiàkè",
+    "Meaning":"tan học",
+    "Chinese":"下课"
+  },
+  {
+    "Pinyin":"shūdiàn",
+    "Meaning":"hiệu sách",
+    "Chinese":"书店"
+  },
+  {
+    "Pinyin":"jiànmiàn",
+    "Meaning":"gặp mặt",
+    "Chinese":"见面"
+  },
+  {
+    "Pinyin":"diànyǐng",
+    "Meaning":"điện ảnh",
+    "Chinese":"电影"
+  },
+  {
+    "Pinyin":"diànshìjù",
+    "Meaning":"phim truyền hình",
+    "Chinese":"电视剧"
+  },
+  {
+    "Pinyin":"gèng",
+    "Meaning":"càng",
+    "Chinese":"更"
+  },
+  {
+    "Pinyin":"liànxí",
+    "Meaning":"luyện tập; ôn tập",
+    "Chinese":"练习"
+  },
+  {
+    "Pinyin":"xiāngzi ",
+    "Meaning":"hòm; rương; vali",
+    "Chinese":"箱子"
+  },
+  {
+    "Pinyin":"zhòng",
+    "Meaning":"nặng",
+    "Chinese":"重"
+  },
+  {
+    "Pinyin":"qīng",
+    "Meaning":"nhẹ",
+    "Chinese":"轻"
+  },
+  {
+    "Pinyin":"bié de",
+    "Meaning":"khác; cái khác",
+    "Chinese":"别的"
+  },
+  {
+    "Pinyin":"hēi",
+    "Meaning":"đen; màu đen",
+    "Chinese":"黑"
+  },
+  {
+    "Pinyin":"hóng",
+    "Meaning":"đỏ; màu đỏ",
+    "Chinese":"红"
+  },
+  {
+    "Pinyin":"yào",
+    "Meaning":"thuốc",
+    "Chinese":"药"
+  },
+  {
+    "Pinyin":"chī yào ",
+    "Meaning":"uống thuốc",
+    "Chinese":"吃药"
+  },
+  {
+    "Pinyin":"zhōngyào",
+    "Meaning":"thuốc Đông y",
+    "Chinese":"中药"
+  },
+  {
+    "Pinyin":"xīyào",
+    "Meaning":"thuốc tây y",
+    "Chinese":"西药"
+  },
+  {
+    "Pinyin":"cháyè",
+    "Meaning":"lá trà",
+    "Chinese":"茶叶"
+  },
+  {
+    "Pinyin":"lǐ",
+    "Meaning":"bên trong; trong",
+    "Chinese":"里"
+  },
+  {
+    "Pinyin":"lǐmiàn",
+    "Meaning":"trong; bên trong",
+    "Chinese":"里面"
+  },
+  {
+    "Pinyin":"rìyòngpǐn",
+    "Meaning":"nhu yếu phẩm; vật dụng hàng ngày",
+    "Chinese":"日用品"
+  },
+  {
+    "Pinyin":"chǎnpǐn",
+    "Meaning":"sản phẩm",
+    "Chinese":"产品"
+  },
+  {
+    "Pinyin":"chéngpǐn",
+    "Meaning":"thành phẩm",
+    "Chinese":"成品"
+  },
+  {
+    "Pinyin":"chéngpǐn cāng",
+    "Meaning":"Kho thành phẩm",
+    "Chinese":"成品仓"
+  },
+  {
+    "Pinyin":"bànchéngpǐn cāng",
+    "Meaning":"kho bán thành phẩm",
+    "Chinese":"半成品仓"
+  },
+  {
+    "Pinyin":"yīfu",
+    "Meaning":"quần áo",
+    "Chinese":"衣服"
+  },
+  {
+    "Pinyin":"jiàn",
+    "Meaning":"cái; bộ（LT)",
+    "Chinese":"件"
+  },
+  {
+    "Pinyin":"yǔsǎn",
+    "Meaning":"ô",
+    "Chinese":"雨伞"
+  },
+  {
+    "Pinyin":"bǎ",
+    "Meaning":"cây; chiếc（LT)",
+    "Chinese":"把"
+  },
+  {
+    "Pinyin":"xià yǔ",
+    "Meaning":"mưa",
+    "Chinese":"下雨"
+  },
+  {
+    "Pinyin":"xiāngshuǐ",
+    "Meaning":"nước hoa",
+    "Chinese":"香水"
+  },
+  {
+    "Pinyin":"píng",
+    "Meaning":"bình; lọ; chai",
+    "Chinese":"瓶"
+  },
+  {
+    "Pinyin":"sòng",
+    "Meaning":"tặng",
+    "Chinese":"送"
+  },
+  {
+    "Pinyin":"guāngpán",
+    "Meaning":"đĩa CD",
+    "Chinese":"光盘"
+  },
+  {
+    "Pinyin":"zhāng",
+    "Meaning":"chiếc; cái（LT)",
+    "Chinese":"张"
+  },
+  {
+    "Pinyin":"bǐ",
+    "Meaning":"bút; cây bút",
+    "Chinese":"笔"
+  },
+  {
+    "Pinyin":"zhī",
+    "Meaning":"cây; cán (lượng từ dùng cho vật có hình cán dài)",
+    "Chinese":"支"
+  },
+  {
+    "Pinyin":"bāo",
+    "Meaning":"cặp; túi; ví (đựng đồ)",
+    "Chinese":"包"
+  },
+  {
+    "Pinyin":"shūbāo",
+    "Meaning":"túi sách; cặp sách",
+    "Chinese":"书包"
+  },
+  {
+    "Pinyin":"yuánzhūbǐ",
+    "Meaning":"bút bi",
+    "Chinese":"圆珠笔"
+  },
+  {
+    "Pinyin":"qiānbǐ ",
+    "Meaning":"bút chì",
+    "Chinese":"铅笔"
+  },
+  {
+    "Pinyin":"bàozhǐ",
+    "Meaning":"báo",
+    "Chinese":"报纸"
+  },
+  {
+    "Pinyin":"dìtú ",
+    "Meaning":"bản đồ",
+    "Chinese":"地图"
+  },
+  {
+    "Pinyin":"yǐzi",
+    "Meaning":"ghế",
+    "Chinese":"椅子"
+  },
+  {
+    "Pinyin":"cèsuǒ",
+    "Meaning":"nhà vệ sinh",
+    "Chinese":"厕所"
+  },
+  {
+    "Pinyin":"xǐshǒujiān",
+    "Meaning":"nhà vệ sinh",
+    "Chinese":"洗手间"
+  },
+  {
+    "Pinyin":"hé",
+    "Meaning":"hộp; thùng",
+    "Chinese":"盒"
+  },
+  {
+    "Pinyin":"zhǔjī",
+    "Meaning":"máy chủ",
+    "Chinese":"主机"
+  },
+  {
+    "Pinyin":"xiǎnshìqì ",
+    "Meaning":"màn hình",
+    "Chinese":"显示器"
+  },
+  {
+    "Pinyin":"kāiguān",
+    "Meaning":"công tắc",
+    "Chinese":"开关"
+  },
+  {
+    "Pinyin":"kāijī ",
+    "Meaning":"khởi động máy",
+    "Chinese":"开机"
+  },
+  {
+    "Pinyin":"shǔbiāo",
+    "Meaning":"chuột; con chuột (máy tính)",
+    "Chinese":"鼠标"
+  },
+  {
+    "Pinyin":"chātóu",
+    "Meaning":"phích cắm",
+    "Chinese":"插头"
+  },
+  {
+    "Pinyin":"dǎyìnjī",
+    "Meaning":"máy in",
+    "Chinese":"打印机"
+  },
+  {
+    "Pinyin":"bǐjìběn diànnǎo",
+    "Meaning":"laptop; máy tính xách tay",
+    "Chinese":"笔记本电脑"
+  },
+  {
+    "Pinyin":"gāng",
+    "Meaning":"vừa; vừa mới",
+    "Chinese":"刚"
+  },
+  {
+    "Pinyin":"dàyī ",
+    "Meaning":"áo khoác",
+    "Chinese":"大衣"
+  },
+  {
+    "Pinyin":"shēngrì dàngāo",
+    "Meaning":"Bánh ga tô mừng sinh nhật",
+    "Chinese":"生日蛋糕"
+  },
+  {
+    "Pinyin":"máoyī ",
+    "Meaning":"áo len",
+    "Chinese":"毛衣"
+  },
+  {
+    "Pinyin":"huàbào",
+    "Meaning":"báo ảnh; tạp chí ảnh",
+    "Chinese":"画报"
+  },
+  {
+    "Pinyin":"hǎojiǔ",
+    "Meaning":"lâu; lâu lắm; rất lâu",
+    "Chinese":"好久"
+  },
+  {
+    "Pinyin":"mǎma - hūhū",
+    "Meaning":"bình thường",
+    "Chinese":"马马虎虎"
+  },
+  {
+    "Pinyin":"zuìjìn",
+    "Meaning":"gần đây",
+    "Chinese":"最近"
+  },
+  {
+    "Pinyin":"hái méi",
+    "Meaning":"vẫn chưa",
+    "Chinese":"还没"
+  },
+  {
+    "Pinyin":"kāixué",
+    "Meaning":"khai giảng",
+    "Chinese":"开学"
+  },
+  {
+    "Pinyin":"yǒu yīdiǎn‘r",
+    "Meaning":"một chút; một ít",
+    "Chinese":"有一点儿"
+  },
+  {
+    "Pinyin":"bēi",
+    "Meaning":"cốc",
+    "Chinese":"杯"
+  },
+  {
+    "Pinyin":"chē",
+    "Meaning":"xe",
+    "Chinese":"车"
+  },
+  {
+    "Pinyin":"zìxíngchē",
+    "Meaning":"xe đạp",
+    "Chinese":"自行车"
+  },
+  {
+    "Pinyin":"mótuō chē",
+    "Meaning":"xe máy",
+    "Chinese":"摩图车"
+  },
+  {
+    "Pinyin":"chūzū chē",
+    "Meaning":"xe taxi",
+    "Chinese":"出租车"
+  },
+  {
+    "Pinyin":"gōnggòng qìchē",
+    "Meaning":"xe buýt",
+    "Chinese":"公共汽车"
+  },
+  {
+    "Pinyin":"gōngjiāo chē",
+    "Meaning":"xe buýt",
+    "Chinese":"公交车"
+  },
+  {
+    "Pinyin":"hóngsè",
+    "Meaning":"màu đỏ",
+    "Chinese":"红色"
+  },
+  {
+    "Pinyin":"huángsè",
+    "Meaning":"màu vàng",
+    "Chinese":"黄色"
+  },
+  {
+    "Pinyin":"lán sè",
+    "Meaning":"màu xanh da trời",
+    "Chinese":"蓝色"
+  },
+  {
+    "Pinyin":"lǜsè",
+    "Meaning":"màu xanh lá",
+    "Chinese":"绿色"
+  },
+  {
+    "Pinyin":"chéngsè",
+    "Meaning":"màu cam",
+    "Chinese":"橙色"
+  },
+  {
+    "Pinyin":"fěnsè",
+    "Meaning":"màu hồng",
+    "Chinese":"粉色"
+  },
+  {
+    "Pinyin":"hēisè",
+    "Meaning":"màu đen",
+    "Chinese":"黑色"
+  },
+  {
+    "Pinyin":"huīsè",
+    "Meaning":"màu xám",
+    "Chinese":"灰色"
+  },
+  {
+    "Pinyin":"báisè",
+    "Meaning":"màu trắng",
+    "Chinese":"白色"
+  },
+  {
+    "Pinyin":"yánsè",
+    "Meaning":"màu sắc",
+    "Chinese":"颜色"
+  },
+  {
+    "Pinyin":"liàng",
+    "Meaning":"chiếc (chỉ xe cộ, trừ tàu hỏa)",
+    "Chinese":"辆"
+  },
+  {
+    "Pinyin":"a",
+    "Meaning":"a; ôi",
+    "Chinese":"啊"
+  },
+  {
+    "Pinyin":"guān",
+    "Meaning":"tắt; đóng",
+    "Chinese":"关"
+  },
+  {
+    "Pinyin":"guānmén",
+    "Meaning":"đóng cửa",
+    "Chinese":"关门"
+  },
+  {
+    "Pinyin":"kāimén",
+    "Meaning":" mở cửa",
+    "Chinese":"开门"
+  },
+  {
+    "Pinyin":"lěng",
+    "Meaning":"lạnh",
+    "Chinese":"冷"
+  },
+  {
+    "Pinyin":"rè",
+    "Meaning":"nóng",
+    "Chinese":"热"
+  },
+  {
+    "Pinyin":"lèi",
+    "Meaning":"mệt",
+    "Chinese":"累"
+  },
+  {
+    "Pinyin":"kùn",
+    "Meaning":"buồn ngủ",
+    "Chinese":"困"
+  },
+  {
+    "Pinyin":"kě",
+    "Meaning":"khát; khát nước",
+    "Chinese":"渴"
+  },
+  {
+    "Pinyin":"chènyī",
+    "Meaning":"áo sơ mi",
+    "Chinese":"衬衣"
+  },
+  {
+    "Pinyin":"zhàoxiàngjī",
+    "Meaning":"máy chụp ảnh",
+    "Chinese":"照相机"
+  },
+  {
+    "Pinyin":"tǐng",
+    "Meaning":"rất; lắm",
+    "Chinese":"挺"
+  },
+  {
+    "Pinyin":"bùcuò",
+    "Meaning":"đúng; đúng vậy",
+    "Chinese":"不错"
+  },
+  {
+    "Pinyin":"zuòchē",
+    "Meaning":"đi xe(4 bánh)",
+    "Chinese":"坐车"
+  },
+  {
+    "Pinyin":"bù",
+    "Meaning":"cái; chiếc; cỗ; bộ (lượng từ dùng cho máy móc hoặc phương tiện)",
+    "Chinese":"部"
+  },
+  {
+    "Pinyin":"hūrán",
+    "Meaning":"đột nhiên",
+    "Chinese":"忽然"
+  },
+  {
+    "Pinyin":"kànjiàn",
+    "Meaning":"nhìn thấy",
+    "Chinese":"看见"
+  },
+  {
+    "Pinyin":"tā",
+    "Meaning":"nó",
+    "Chinese":"它"
+  },
+  {
+    "Pinyin":"hǎokàn",
+    "Meaning":"đẹp",
+    "Chinese":"好看"
+  },
+  {
+    "Pinyin":"hǎo qí",
+    "Meaning":"Dễ lái",
+    "Chinese":"好骑"
+  },
+  {
+    "Pinyin":"qiánbian",
+    "Meaning":"phía trước",
+    "Chinese":"前边"
+  },
+  {
+    "Pinyin":"kè",
+    "Meaning":"tiết học; giờ học",
+    "Chinese":"课"
+  },
+  {
+    "Pinyin":"yǒu yìsi",
+    "Meaning":"thú vị; có ý nghĩa",
+    "Chinese":"有意思"
+  },
+  {
+    "Pinyin":"yǒuyì",
+    "Meaning":"có ý định",
+    "Chinese":"有意"
+  },
+  {
+    "Pinyin":"quán",
+    "Meaning":"toàn bộ",
+    "Chinese":"全"
+  },
+  {
+    "Pinyin":"quánjiā",
+    "Meaning":"cả nhà; cả gia đình",
+    "Chinese":"全家"
+  },
+  {
+    "Pinyin":"quán bān",
+    "Meaning":"cả lớp",
+    "Chinese":"全班"
+  },
+  {
+    "Pinyin":"Quánxiào",
+    "Meaning":"Toàn trường",
+    "Chinese":"全校"
+  },
+  {
+    "Pinyin":"zhàopiàn",
+    "Meaning":"tấm ảnh; bức ảnh",
+    "Chinese":"照片"
+  },
+  {
+    "Pinyin":"háizi",
+    "Meaning":"con cái",
+    "Chinese":"孩子"
+  },
+  {
+    "Pinyin":"nǚ'ér",
+    "Meaning":"con gái",
+    "Chinese":"女儿"
+  },
+  {
+    "Pinyin":"érzi",
+    "Meaning":"con trai",
+    "Chinese":"儿子"
+  },
+  {
+    "Pinyin":"kànbìng",
+    "Meaning":"khám bệnh",
+    "Chinese":"看病"
+  },
+  {
+    "Pinyin":"kànshū",
+    "Meaning":"đọc sách",
+    "Chinese":"看书"
+  },
+  {
+    "Pinyin":"Kàn háizǐ",
+    "Meaning":"trông con",
+    "Chinese":"看孩子"
+  },
+  {
+    "Pinyin":"zhǐ",
+    "Meaning":"chỉ",
+    "Chinese":"只"
+  },
+  {
+    "Pinyin":"zhī",
+    "Meaning":"Lượng từ chiếc; cái; con",
+    "Chinese":"只"
+  },
+  {
+    "Pinyin":"zuò",
+    "Meaning":"làm",
+    "Chinese":"做"
+  },
+  {
+    "Pinyin":"Zuò zuo yè",
+    "Meaning":"Làm bài tập về nhà",
+    "Chinese":"做作业"
+  },
+  {
+    "Pinyin":"yīyuàn",
+    "Meaning":"bệnh viện",
+    "Chinese":"医院"
+  },
+  {
+    "Pinyin":"gōngsī",
+    "Meaning":"công ty",
+    "Chinese":"公司"
+  },
+  {
+    "Pinyin":"shāngdiàn",
+    "Meaning":"cửa hàng",
+    "Chinese":"商店"
+  },
+  {
+    "Pinyin":"wàimào",
+    "Meaning":"thương mại",
+    "Chinese":"外贸"
+  },
+  {
+    "Pinyin":"dàgài",
+    "Meaning":"tầm; khoảng chừng",
+    "Chinese":"大概"
+  },
+  {
+    "Pinyin":"wàiguó",
+    "Meaning":"nước ngoài",
+    "Chinese":"外国"
+  },
+  {
+    "Pinyin":"tánhuà",
+    "Meaning":"nói chuyện",
+    "Chinese":"谈话"
+  },
+  {
+    "Pinyin":"yì wàn",
+    "Meaning":"tỉ",
+    "Chinese":"亿万"
+  },
+  {
+    "Pinyin":"shùmǎ xiàngjī",
+    "Meaning":"máy ảnh kĩ thuật số",
+    "Chinese":"数码相机"
+  },
+  {
+    "Pinyin":"shìjiè",
+    "Meaning":"thế giới",
+    "Chinese":"世界"
+  },
+  {
+    "Pinyin":"jiāwù",
+    "Meaning":"việc nhà",
+    "Chinese":"家务"
+  },
+  {
+    "Pinyin":"gāoxìng",
+    "Meaning":"vui; vui vẻ",
+    "Chinese":"高兴"
+  },
+  {
+    "Pinyin":"fànguǎn",
+    "Meaning":"nhà ăn",
+    "Chinese":"饭馆"
+  },
+  {
+    "Pinyin":"fúwùyuán",
+    "Meaning":"nhân viên phục vụ",
+    "Chinese":"服务员"
+  },
+  {
+    "Pinyin":"yǎnyuán",
+    "Meaning":"diễn viên",
+    "Chinese":"演员"
+  },
+  {
+    "Pinyin":"lǎo péngyǒu",
+    "Meaning":"bạn cũ",
+    "Chinese":"老朋友"
+  },
+  {
+    "Pinyin":"gǒu",
+    "Meaning":"chó",
+    "Chinese":"狗"
+  },
+  {
+    "Pinyin":"māo",
+    "Meaning":"mèo; con mèo (LT 只)",
+    "Chinese":"猫"
+  },
+  {
+    "Pinyin":"cái",
+    "Meaning":"mới; vừa mới (cách đây không lâu)",
+    "Chinese":"才"
+  },
+  {
+    "Pinyin":"rènzhēn",
+    "Meaning":"nghiêm túc; chăm chỉ",
+    "Chinese":"认真"
+  },
+  {
+    "Pinyin":"sījī",
+    "Meaning":"tài xế",
+    "Chinese":"司机"
+  },
+  {
+    "Pinyin":"jiēsòng",
+    "Meaning":"đưa đón",
+    "Chinese":"接送"
+  },
+  {
+    "Pinyin":"liú",
+    "Meaning":"họ Lưu",
+    "Chinese":"刘"
+  },
+  {
+    "Pinyin":"xiào",
+    "Meaning":"cười",
+    "Chinese":"笑"
+  },
+  {
+    "Pinyin":"bàn",
+    "Meaning":"rưỡi; một nửa",
+    "Chinese":"半"
+  },
+  {
+    "Pinyin":"dào",
+    "Meaning":"đi; đến; đi đến",
+    "Chinese":"到"
+  },
+  {
+    "Pinyin":"jié kè",
+    "Meaning":"tiết học",
+    "Chinese":"节课"
+  },
+  {
+    "Pinyin":"yìsi",
+    "Meaning":"ý nghĩa",
+    "Chinese":"意思"
+  },
+  {
+    "Pinyin":"jīròu",
+    "Meaning":"thịt gà",
+    "Chinese":"鸡肉"
+  },
+  {
+    "Pinyin":"yībiān",
+    "Meaning":"vừa",
+    "Chinese":"一边"
+  },
+  {
+    "Pinyin":"kāixīn",
+    "Meaning":"vui vẻ; hạnh phúc; vui sướng",
+    "Chinese":"开心"
+  },
+  {
+    "Pinyin":"xiànzài",
+    "Meaning":"hiện tại",
+    "Chinese":"现在"
+  },
+  {
+    "Pinyin":"yīqǐ ",
+    "Meaning":"cùng nhau",
+    "Chinese":"一起"
+  },
+  {
+    "Pinyin":"měitiān",
+    "Meaning":"mỗi ngày; hằng ngày",
+    "Chinese":"每天"
+  },
+  {
+    "Pinyin":"zánmen",
+    "Meaning":"chúng ta",
+    "Chinese":"咱们"
+  },
+  {
+    "Pinyin":"zǒu",
+    "Meaning":"đi; đi bộ",
+    "Chinese":"走"
+  },
+  {
+    "Pinyin":"chángcháng",
+    "Meaning":"thường; thường xuyên",
+    "Chinese":"常常"
+  },
+  {
+    "Pinyin":"Chī dōngxī",
+    "Meaning":"ăn đồ ăn",
+    "Chinese":"吃东西"
+  },
+  {
+    "Pinyin":"yǒu shíhou",
+    "Meaning":"có lúc; có khi",
+    "Chinese":"有时候"
+  },
+  {
+    "Pinyin":"jiè",
+    "Meaning":"mượn; vay",
+    "Chinese":"借"
+  },
+  {
+    "Pinyin":"shàngwǎng",
+    "Meaning":"shàngwǎng",
+    "Chinese":"上网"
+  },
+  {
+    "Pinyin":"xiàn xià",
+    "Meaning":"ngoại tuyến（offline）",
+    "Chinese":"线下"
+  },
+  {
+    "Pinyin":"xiàn shàng",
+    "Meaning":"online; trực tuyến",
+    "Chinese":"线上"
+  },
+  {
+    "Pinyin":"wǎngluò",
+    "Meaning":"mạng; internet",
+    "Chinese":"网络"
+  },
+  {
+    "Pinyin":"xià wǎng",
+    "Meaning":"chuyển sang ngoại tuyến; giăng lưới đánh cá",
+    "Chinese":"下网"
+  },
+  {
+    "Pinyin":"chá",
+    "Meaning":"kiểm tra",
+    "Chinese":"查"
+  },
+  {
+    "Pinyin":"zīliào",
+    "Meaning":"tài liệu",
+    "Chinese":"资料"
+  },
+  {
+    "Pinyin":"zǒng shì",
+    "Meaning":"luôn luôn",
+    "Chinese":"总是"
+  },
+  {
+    "Pinyin":"ānjìng",
+    "Meaning":"yên tĩnh",
+    "Chinese":"安静"
+  },
+  {
+    "Pinyin":"fùxí",
+    "Meaning":"ôn tập; ôn bài",
+    "Chinese":"复习"
+  },
+  {
+    "Pinyin":"yùxí",
+    "Meaning":"chuẩn bị trước; xem trước",
+    "Chinese":"预习"
+  },
+  {
+    "Pinyin":"yùjì",
+    "Meaning":"dự kiến; dự đoán",
+    "Chinese":"预计"
+  },
+  {
+    "Pinyin":"yùbào",
+    "Meaning":"dự báo",
+    "Chinese":"预报"
+  },
+  {
+    "Pinyin":"tiānqì yùbào",
+    "Meaning":"dự báo thời tiết",
+    "Chinese":"天气预报"
+  },
+  {
+    "Pinyin":"kèwén",
+    "Meaning":"bài khoá",
+    "Chinese":"课文"
+  },
+  {
+    "Pinyin":"shēngcí ",
+    "Meaning":"từ mới",
+    "Chinese":"生词"
+  },
+  {
+    "Pinyin":"zhòngfù",
+    "Meaning":"gánh nặng",
+    "Chinese":"重负"
+  },
+  {
+    "Pinyin":"huòzhě",
+    "Meaning":"hoặc; hay; hoặc là",
+    "Chinese":"或者"
+  },
+  {
+    "Pinyin":"háishi",
+    "Meaning":"hay; hay là (câu hỏi lựa chọn)",
+    "Chinese":"还是"
+  },
+  {
+    "Pinyin":"liáotiān",
+    "Meaning":"nói chuyện",
+    "Chinese":"聊天"
+  },
+  {
+    "Pinyin":"jiǎng",
+    "Meaning":"nói; kể; bàn bạc; mặc cả",
+    "Chinese":"讲"
+  },
+  {
+    "Pinyin":"chuīniú",
+    "Meaning":"chém gió",
+    "Chinese":"吹牛"
+  },
+  {
+    "Pinyin":"shuōhuà",
+    "Meaning":"nói chuyện",
+    "Chinese":"说话"
+  },
+  {
+    "Pinyin":"Huì shuōhuà",
+    "Meaning":"nói chuyện khéo léo",
+    "Chinese":"会说话"
+  },
+  {
+    "Pinyin":"shōufā",
+    "Meaning":"nhận và gửi",
+    "Chinese":"收发"
+  },
+  {
+    "Pinyin":"shōu",
+    "Meaning":"nhận",
+    "Chinese":"收"
+  },
+  {
+    "Pinyin":"fā",
+    "Meaning":"gửi",
+    "Chinese":"发"
+  },
+  {
+    "Pinyin":"Shōu qián",
+    "Meaning":"Nhận tiền",
+    "Chinese":"收钱"
+  },
+  {
+    "Pinyin":"Fā xiāoxī",
+    "Meaning":"Gửi tin nhắn",
+    "Chinese":"发消息"
+  },
+  {
+    "Pinyin":"shōu dào",
+    "Meaning":"đã nắm thông tin",
+    "Chinese":"收到"
+  },
+  {
+    "Pinyin":"fā yóujiàn",
+    "Meaning":"gửi email",
+    "Chinese":"发邮件"
+  },
+  {
+    "Pinyin":"yī mèir",
+    "Meaning":"e-mail",
+    "Chinese":"伊妹儿"
+  },
+  {
+    "Pinyin":"diànzǐ yóujiàn",
+    "Meaning":"e-mail; thư điện tử",
+    "Chinese":"电子邮件"
+  },
+  {
+    "Pinyin":"xiūxi",
+    "Meaning":"nghỉ ngơi",
+    "Chinese":"休息"
+  },
+  {
+    "Pinyin":"gōngyuán",
+    "Meaning":"công viên",
+    "Chinese":"公园"
+  },
+  {
+    "Pinyin":"wán",
+    "Meaning":"chơi",
+    "Chinese":"玩"
+  },
+  {
+    "Pinyin":"chāoshì",
+    "Meaning":"siêu thị",
+    "Chinese":"超市"
+  },
+  {
+    "Pinyin":"dōngxi",
+    "Meaning":"đồ ăn; đồ đạc",
+    "Chinese":"东西"
+  },
+  {
+    "Pinyin":"shìchǎng",
+    "Meaning":"thị trường",
+    "Chinese":"市场"
+  },
+  {
+    "Pinyin":"jí shì",
+    "Meaning":"chợ phiên",
+    "Chinese":"集市"
+  },
+  {
+    "Pinyin":"diànyǐngyuàn",
+    "Meaning":" rạp chiếu phim",
+    "Chinese":"电影院"
+  },
+  {
+    "Pinyin":"wèntí",
+    "Meaning":"câu hỏi; vấn đề",
+    "Chinese":"问题"
+  },
+  {
+    "Pinyin":"suǒyǐ",
+    "Meaning":"cho nên; nên; vậy nên",
+    "Chinese":"所以"
+  },
+  {
+    "Pinyin":"chūlái",
+    "Meaning":"ra; ra ngoài",
+    "Chinese":"出来"
+  },
+  {
+    "Pinyin":"yīnyuè",
+    "Meaning":"âm nhạc",
+    "Chinese":"音乐"
+  },
+  {
+    "Pinyin":"méiyǒu",
+    "Meaning":"không có",
+    "Chinese":"没有"
+  },
+  {
+    "Pinyin":"lùyīn",
+    "Meaning":"ghi âm",
+    "Chinese":"录音"
+  },
+  {
+    "Pinyin":"chóngfù",
+    "Meaning":"làm lại",
+    "Chinese":"重复"
+  },
+  {
+    "Pinyin":"fàndiàn",
+    "Meaning":"quán cơm",
+    "Chinese":"饭店"
+  },
+  {
+    "Pinyin":"jiǔdiàn",
+    "Meaning":"khách sạn",
+    "Chinese":"酒店"
+  },
+  {
+    "Pinyin":"záhuò diàn",
+    "Meaning":"cửa hàng tạp hóa; tiệm tạp hóa",
+    "Chinese":"杂货店"
+  },
+  {
+    "Pinyin":"lǚyóu",
+    "Meaning":"du lịch",
+    "Chinese":"旅游"
+  },
+  {
+    "Pinyin":"jǐ",
+    "Meaning":"chen chúc; chật chội",
+    "Chinese":"挤"
+  },
+  {
+    "Pinyin":"qí",
+    "Meaning":"cưỡi; lái",
+    "Chinese":"骑"
+  },
+  {
+    "Pinyin":"Qí mótuō chē",
+    "Meaning":"Đi xe máy",
+    "Chinese":"骑摩托车"
+  },
+  {
+    "Pinyin":"qí zì xíng chē",
+    "Meaning":"Đạp xe đạp",
+    "Chinese":"骑自行车"
+  },
+  {
+    "Pinyin":"kǒuyǔ",
+    "Meaning":"khẩu ngữ",
+    "Chinese":"口语"
+  },
+  {
+    "Pinyin":"zōnghé",
+    "Meaning":"tổng hợp",
+    "Chinese":"综合"
+  },
+  {
+    "Pinyin":"tīnglì",
+    "Meaning":"thính lực; khả năng nghe; năng lực nghe",
+    "Chinese":"听力"
+  },
+  {
+    "Pinyin":"yuèdú",
+    "Meaning":"đọc hiểu",
+    "Chinese":"阅读"
+  },
+  {
+    "Pinyin":"wénhuà",
+    "Meaning":"văn hoá",
+    "Chinese":"文化"
+  },
+  {
+    "Pinyin":"tǐyù",
+    "Meaning":"thể dục",
+    "Chinese":"体育"
+  },
+  {
+    "Pinyin":"jiào",
+    "Meaning":"dạy",
+    "Chinese":"教"
+  },
+  {
+    "Pinyin":"jiàoxué",
+    "Meaning":"dạy học",
+    "Chinese":"教学"
+  },
+  {
+    "Pinyin":"fēijī",
+    "Meaning":"máy bay",
+    "Chinese":"飞机"
+  },
+  {
+    "Pinyin":"huǒchē zhàn",
+    "Meaning":"trạm xe lửa; ga xe lửa",
+    "Chinese":"火车站"
+  },
+  {
+    "Pinyin":"dǎ di",
+    "Meaning":"bắt taxi",
+    "Chinese":"打的"
+  },
+  {
+    "Pinyin":"dǎchē",
+    "Meaning":"gọi xe taxi",
+    "Chinese":"打车"
+  },
+  {
+    "Pinyin":"zhàoxiàng",
+    "Meaning":"chụp ảnh; chụp hình",
+    "Chinese":"照相"
+  },
+  {
+    "Pinyin":"yóuyǒng",
+    "Meaning":"bơi",
+    "Chinese":"游泳"
+  },
+  {
+    "Pinyin":"chànggē",
+    "Meaning":"hát",
+    "Chinese":"唱歌"
+  },
+  {
+    "Pinyin":"diànhuàkǎ",
+    "Meaning":"thẻ sim; thẻ điện thoại",
+    "Chinese":"电话卡"
+  },
+  {
+    "Pinyin":"zúqiú",
+    "Meaning":"bóng đá",
+    "Chinese":"足球"
+  },
+  {
+    "Pinyin":"bǐsài",
+    "Meaning":"thi đấu; đấu",
+    "Chinese":"比赛"
+  },
+  {
+    "Pinyin":"dǎkǎ",
+    "Meaning":"chấm công",
+    "Chinese":"打卡"
+  },
+  {
+    "Pinyin":"zhǒng",
+    "Meaning":"loại; chủng",
+    "Chinese":"种"
+  },
+  {
+    "Pinyin":"Zúqiú bǐsài",
+    "Meaning":"Trận đấu bóng đá",
+    "Chinese":"足球比赛"
+  },
+  {
+    "Pinyin":"jīngjù",
+    "Meaning":"Kinh kịch",
+    "Chinese":"京剧"
+  },
+  {
+    "Pinyin":"húzhìmíng shì",
+    "Meaning":"thành phố Hồ Chí Minh",
+    "Chinese":"胡志明市"
+  },
+  {
+    "Pinyin":"gàosù",
+    "Meaning":"kể; mách",
+    "Chinese":"告诉"
+  },
+  {
+    "Pinyin":"bāngzhù",
+    "Meaning":"giúp đỡ",
+    "Chinese":"帮助"
+  },
+  {
+    "Pinyin":"wán",
+    "Meaning":"xong",
+    "Chinese":"完"
+  },
+  {
+    "Pinyin":"gānjìng",
+    "Meaning":"sạch sẽ; gọn gàng",
+    "Chinese":"干净"
+  },
+  {
+    "Pinyin":"zhěngqí",
+    "Meaning":"ngăn nắp; ngay ngắn",
+    "Chinese":"整齐"
+  },
+  {
+    "Pinyin":"yǐqián",
+    "Meaning":"trước đây; trước kia",
+    "Chinese":"以前"
+  },
+  {
+    "Pinyin":"zāng",
+    "Meaning":"bẩn; dơ; bẩn thỉu",
+    "Chinese":"脏"
+  },
+  {
+    "Pinyin":"shūjià",
+    "Meaning":"giá sách; kệ sách",
+    "Chinese":"书架"
+  },
+  {
+    "Pinyin":"zhěntou",
+    "Meaning":"gối; cái gối; chiếc gối",
+    "Chinese":"枕头"
+  },
+  {
+    "Pinyin":"chuáng",
+    "Meaning":"giường; cái giường",
+    "Chinese":"床"
+  },
+  {
+    "Pinyin":"xié",
+    "Meaning":"giày; dép",
+    "Chinese":"鞋"
+  },
+  {
+    "Pinyin":"Dīnglì",
+    "Meaning":"đinh lực",
+    "Chinese":"丁力"
+  },
+  {
+    "Pinyin":"mǎshàng",
+    "Meaning":"ngay lập tức",
+    "Chinese":"马上"
+  },
+  {
+    "Pinyin":"diànbào",
+    "Meaning":"điện báo",
+    "Chinese":"电报"
+  },
+  {
+    "Pinyin":"fēng",
+    "Meaning":"bức; lá（LT）",
+    "Chinese":"封"
+  },
+  {
+    "Pinyin":"gōngjī",
+    "Meaning":"gà trống",
+    "Chinese":"公鸡"
+  },
+  {
+    "Pinyin":"yùjiàn",
+    "Meaning":"gặp; gặp mặt",
+    "Chinese":"遇见"
+  },
+  {
+    "Pinyin":"láng",
+    "Meaning":"con sói; chó sói",
+    "Chinese":"狼"
+  },
+  {
+    "Pinyin":"zāogāo",
+    "Meaning":"tiêu rồi; chết rồi; toang rồi; thôi rồi; thôi chết",
+    "Chinese":"糟糕"
+  },
+  {
+    "Pinyin":"yùndòng",
+    "Meaning":"thể thao",
+    "Chinese":"运动"
+  },
+  {
+    "Pinyin":"bāoguǒ",
+    "Meaning":"bưu phẩm; bưu kiện",
+    "Chinese":"包裹"
+  },
+  {
+    "Pinyin":"shùnbiàn",
+    "Meaning":"thuận tiện",
+    "Chinese":"顺便"
+  },
+  {
+    "Pinyin":"tì",
+    "Meaning":"thay thế",
+    "Chinese":"替"
+  },
+  {
+    "Pinyin":"yóupiào",
+    "Meaning":"con tem",
+    "Chinese":"邮票"
+  },
+  {
+    "Pinyin":"qīngnián",
+    "Meaning":"thanh niên",
+    "Chinese":"青年"
+  },
+  {
+    "Pinyin":"bào",
+    "Meaning":"báo (giấy, điện tử...)",
+    "Chinese":"报"
+  },
+  {
+    "Pinyin":"fèn",
+    "Meaning":"suất; phần",
+    "Chinese":"份"
+  },
+  {
+    "Pinyin":"Yī fèn bàozhǐ",
+    "Meaning":"1 phần báo",
+    "Chinese":"一份报纸"
+  },
+  {
+    "Pinyin":"Yī fèn mǐfàn",
+    "Meaning":"1 suất cơm",
+    "Chinese":"一份米饭"
+  },
+  {
+    "Pinyin":"Yī fèn gōngzuò",
+    "Meaning":"1 công việc",
+    "Chinese":"一份工作"
+  },
+  {
+    "Pinyin":"ná",
+    "Meaning":"cầm",
+    "Chinese":"拿"
+  },
+  {
+    "Pinyin":"Ná qián",
+    "Meaning":"cầm tiền",
+    "Chinese":"拿钱"
+  },
+  {
+    "Pinyin":"Ná shǒujī",
+    "Meaning":"cầm điện thoại",
+    "Chinese":"拿手机"
+  },
+  {
+    "Pinyin":"yòng",
+    "Meaning":"sử dụng",
+    "Chinese":"用"
+  },
+  {
+    "Pinyin":"yǒuyòng",
+    "Meaning":"hữu dụng; có ích",
+    "Chinese":"有用"
+  },
+  {
+    "Pinyin":"méi yòng",
+    "Meaning":"vô dụng",
+    "Chinese":"没用"
+  },
+  {
+    "Pinyin":"bùyòng",
+    "Meaning":"không cần",
+    "Chinese":"不用"
+  },
+  {
+    "Pinyin":"dàibiǎo",
+    "Meaning":"đại biểu",
+    "Chinese":"代表"
+  },
+  {
+    "Pinyin":"tuán",
+    "Meaning":"đoàn",
+    "Chinese":"团"
+  },
+  {
+    "Pinyin":"cānguān",
+    "Meaning":"tham quan",
+    "Chinese":"参观"
+  },
+  {
+    "Pinyin":"dāng",
+    "Meaning":"làm (chức trách, nhiệm vụ, chức danh)",
+    "Chinese":"当"
+  },
+  {
+    "Pinyin":"jiānglái",
+    "Meaning":"sau này",
+    "Chinese":"将来"
+  },
+  {
+    "Pinyin":"fānyì",
+    "Meaning":"phiên dịch",
+    "Chinese":"翻译"
+  },
+  {
+    "Pinyin":"Dāng fānyì",
+    "Meaning":"làm phiên dịch",
+    "Chinese":"当翻译"
+  },
+  {
+    "Pinyin":"huǒchē",
+    "Meaning":"xe lửa",
+    "Chinese":"火车"
+  },
+  {
+    "Pinyin":"bàn",
+    "Meaning":"làm công việc, việc chung, chính sự, hành chính",
+    "Chinese":"办"
+  },
+  {
+    "Pinyin":"bāng",
+    "Meaning":"giúp",
+    "Chinese":"帮"
+  },
+  {
+    "Pinyin":"yǔróngfú",
+    "Meaning":"áo lông vũ",
+    "Chinese":"羽绒服"
+  },
+  {
+    "Pinyin":"chuān",
+    "Meaning":"mặc",
+    "Chinese":"穿"
+  },
+  {
+    "Pinyin":"yòu",
+    "Meaning":"vừa; lại",
+    "Chinese":"又"
+  },
+  {
+    "Pinyin":"chǒu",
+    "Meaning":"xấu",
+    "Chinese":"丑"
+  },
+  {
+    "Pinyin":"cháng",
+    "Meaning":"dài",
+    "Chinese":"长"
+  },
+  {
+    "Pinyin":"duǎn",
+    "Meaning":"ngắn",
+    "Chinese":"短"
+  },
+  {
+    "Pinyin":"shēn",
+    "Meaning":"đậm; sâu",
+    "Chinese":"深"
+  },
+  {
+    "Pinyin":"qiǎn",
+    "Meaning":"nông; nhạt",
+    "Chinese":"浅"
+  },
+  {
+    "Pinyin":"kěyǐ",
+    "Meaning":"có thể; được phép",
+    "Chinese":"可以"
+  },
+  {
+    "Pinyin":"dāngrán",
+    "Meaning":"tất nhiên; đương nhiên",
+    "Chinese":"当然"
+  },
+  {
+    "Pinyin":"féi",
+    "Meaning":"Béo (quần áo rộng, thịt mỡ)",
+    "Chinese":"肥"
+  },
+  {
+    "Pinyin":"shòu",
+    "Meaning":"gầy",
+    "Chinese":"瘦"
+  },
+  {
+    "Pinyin":"féi ròu",
+    "Meaning":"thịt mỡ",
+    "Chinese":"肥肉"
+  },
+  {
+    "Pinyin":"héshì",
+    "Meaning":"phù hợp, thích hợp (Tính từ)",
+    "Chinese":"合适"
+  },
+  {
+    "Pinyin":"shìhé",
+    "Meaning":"Hợp, phù hợp (V)",
+    "Chinese":"适合"
+  },
+  {
+    "Pinyin":"měilì",
+    "Meaning":"Đẹp, lộng lẫy, diễm lệ",
+    "Chinese":"美丽"
+  },
+  {
+    "Pinyin":"piàoliang",
+    "Meaning":"xinh đẹp",
+    "Chinese":"漂亮"
+  },
+  {
+    "Pinyin":"dǎzhé",
+    "Meaning":"giảm giá",
+    "Chinese":"打折"
+  },
+  {
+    "Pinyin":"fēn zhī",
+    "Meaning":"chia",
+    "Chinese":"分之"
+  },
+  {
+    "Pinyin":"yīnggāi",
+    "Meaning":"nên; chắc",
+    "Chinese":"应该"
+  },
+  {
+    "Pinyin":"tīng shuō",
+    "Meaning":"nghe nói",
+    "Chinese":"听说"
+  },
+  {
+    "Pinyin":"dōngtiān",
+    "Meaning":"mùa đông",
+    "Chinese":"冬天"
+  },
+  {
+    "Pinyin":"jīchǎng",
+    "Meaning":"sân bay",
+    "Chinese":"机场"
+  },
+  {
+    "Pinyin":"jiē",
+    "Meaning":"đón",
+    "Chinese":"接"
+  },
+  {
+    "Pinyin":"néng",
+    "Meaning":"có thể",
+    "Chinese":"能"
+  },
+  {
+    "Pinyin":"zhǎnlǎn",
+    "Meaning":"buổi triển lãm",
+    "Chinese":"展览"
+  }
+]
