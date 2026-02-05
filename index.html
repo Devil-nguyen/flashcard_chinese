@@ -1,93 +1,87 @@
 <!DOCTYPE html>
 <html lang="vi">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Học từ vựng tiếng Trung (Offline)</title>
-  <style>
-    body {
-      font-family: Arial;
-      padding: 20px;
-      max-width: 600px;
-      margin: auto;
-      background-color: white;
-      color: black;
-    }
-    input, select, button {
-      font-size: 16px;
-      margin-top: 5px;
-    }
-    button { margin-right: 5px; }
-    #result.wrong { background:#f8d7da; padding:10px; border-radius:5px; }
-    #result.correct { background:#d4edda; padding:10px; border-radius:5px; }
-    .dark-mode { background:#1e1e1e; color:#f0f0f0; }
-    .dark-mode input,
-    .dark-mode select,
-    .dark-mode button {
-      background:#2e2e2e;
-      color:white;
-      border:1px solid #555;
-    }
-  </style>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Flashcard tiếng Trung (Offline)</title>
+
+<style>
+body{
+  font-family: Arial;
+  padding:20px;
+  max-width:600px;
+  margin:auto;
+  background:#fff;
+  color:#000;
+}
+input,select,button{font-size:16px;margin-top:5px;}
+button{margin-right:5px;}
+#result.wrong{background:#f8d7da;padding:10px;border-radius:5px;}
+#result.correct{background:#d4edda;padding:10px;border-radius:5px;}
+.dark-mode{background:#1e1e1e;color:#f0f0f0;}
+.dark-mode input,.dark-mode select,.dark-mode button{
+  background:#2e2e2e;color:#f0f0f0;border:1px solid #555;
+}
+</style>
 </head>
 
 <body>
 
 <h2>Flashcard tiếng Trung (Offline)</h2>
 
-<label>Chế độ học: </label>
+<label>Chế độ học:</label>
 <select id="mode">
   <option value="cn_to_vi">Tiếng Trung → Nghĩa</option>
   <option value="vi_to_cn">Nghĩa → Tiếng Trung</option>
 </select>
 
-<label><input id="showPinyin" type="checkbox" checked/> Hiện Pinyin</label>
-<label><input type="checkbox" id="darkToggle"/> 🌙 Chế độ tối</label>
+<label><input type="checkbox" id="showPinyin" checked> Hiện Pinyin</label>
+<label><input type="checkbox" id="darkToggle"> 🌙 Chế độ tối</label>
 
 <div id="word" style="font-size:24px;margin:10px 0;"></div>
 
-<input id="answer" placeholder="Nhập câu trả lời..." style="width:100%;" />
+<input id="answer" placeholder="Nhập câu trả lời..." style="width:100%;"/>
 
 <button onclick="checkAnswer()">🔍 Kiểm tra</button>
 <button onclick="nextWord()">➡️ Tiếp</button>
-<button onclick="speak()">🔊 Đọc</button>
+<button onclick="speak()">🔊 Đọc pinyin</button>
 <button id="toggleModeBtn" onclick="toggleLearningMode()">📚 Học từ (Tất cả)</button><br/>
 
-<button onclick="resetStats()">♻️ Reset</button>
+<button onclick="resetStats()">♻️ Reset thống kê</button>
 <button onclick="exportWrongWords()">📥 Xuất từ sai</button>
-<button onclick="openEdit()">✏️ Sửa từ</button>
+<button onclick="openEdit()">✏️ Sửa từ hiện tại</button>
 <button onclick="exportEditedWords()">📤 Xuất từ đã sửa</button>
 <button onclick="openAdd()">➕ Thêm từ mới</button>
 
-<div id="result"></div>
+<div id="result" style="margin-top:10px;"></div>
 
-<div id="stats">
-  <h3>Thống kê</h3>
-  <p id="total"></p>
-  <p id="correct"></p>
-  <p id="wrong"></p>
-  <p id="accuracy"></p>
-  <div id="wrong-list"></div>
+<div id="stats" style="margin-top:20px;background:#f4f4f4;padding:10px;">
+<h3>Thống kê</h3>
+<p id="total"></p>
+<p id="correct"></p>
+<p id="wrong"></p>
+<p id="accuracy"></p>
+<div id="wrong-list"></div>
 </div>
 
-<!-- MODAL SỬA -->
+<!-- EDIT MODAL -->
 <div id="editModal" style="display:none;position:fixed;top:10%;left:50%;transform:translateX(-50%);background:#fff;padding:20px;border:1px solid #ccc;">
 <h3>Sửa từ</h3>
-Chinese <input id="editChinese"><br>
-Pinyin <input id="editPinyin"><br>
-Meaning <input id="editMeaning"><br>
-<button onclick="saveEdit()">Lưu</button>
-<button onclick="closeEdit()">Hủy</button>
+Tiếng Trung: <input id="editChinese"><br/>
+Pinyin: <input id="editPinyin"><br/>
+Nghĩa: <input id="editMeaning"><br/>
+<button onclick="saveEdit()">💾 Lưu</button>
+<button onclick="closeEdit()">❌ Hủy</button>
 </div>
 
-<!-- MODAL THÊM -->
+<!-- ADD MODAL -->
 <div id="addModal" style="display:none;position:fixed;top:10%;left:50%;transform:translateX(-50%);background:#fff;padding:20px;border:1px solid #ccc;">
 <h3>Thêm từ mới</h3>
-Chinese <input id="addChinese"><br>
-Pinyin <input id="addPinyin"><br>
-Meaning <input id="addMeaning"><br>
-<button onclick="saveNewWord()">Lưu</button>
-<button onclick="closeAdd()">Hủy</button>
+Tiếng Trung: <input id="addChinese"><br/>
+Pinyin: <input id="addPinyin"><br/>
+Nghĩa: <input id="addMeaning"><br/>
+<button onclick="saveNewWord()">💾 Lưu</button>
+<button onclick="closeAdd()">❌ Hủy</button>
 </div>
 
 <script>
@@ -97,19 +91,20 @@ let stats={total:0,correct:0,wrong:0,wrongWords:[]};
 let retryMode=false,retryList=[],retryIndex=0,recentWords=[],editedWords=[];
 let addedWords = JSON.parse(localStorage.getItem("addedWords")) || [];
 
-fetch('tuvung.json').then(r=>r.json()).then(data=>{
+fetch("tuvung.json").then(r=>r.json()).then(data=>{
   vocabList = data.concat(addedWords);
   loadStats();
   nextWord();
 });
 
-function normalizeVN(str){
-  return str.trim().toLowerCase();
+function normalizeVN(s){
+  return s.trim().toLowerCase();
 }
 
 function nextWord(){
-  result.textContent="";
   answer.value="";
+  result.textContent="";
+  result.className="";
   if(retryMode && stats.wrongWords.length){
     current = stats.wrongWords[retryIndex++ % stats.wrongWords.length];
   }else{
@@ -121,9 +116,10 @@ function nextWord(){
 
 function updateWordDisplay(){
   if(mode.value==="cn_to_vi"){
-    word.textContent=current.Chinese+(showPinyin.checked?" ("+current.Pinyin+")":"");
+    word.textContent = "Tiếng Trung: "+current.Chinese +
+      (showPinyin.checked?" ("+current.Pinyin+")":"");
   }else{
-    word.textContent=current.Meaning;
+    word.textContent = "Nghĩa: "+current.Meaning;
   }
 }
 
@@ -137,12 +133,13 @@ function checkAnswer(){
   if(list.includes(input)){
     stats.correct++;
     result.className="correct";
-    result.textContent="✅ Chính xác!";
+    result.innerHTML="✅ Chính xác!";
     setTimeout(nextWord,1200);
   }else{
     stats.wrong++;
     result.className="wrong";
-    result.innerHTML=`❌ Sai<br>${current.Chinese} (${current.Pinyin}) - ${current.Meaning}`;
+    result.innerHTML=`❌ Sai.<br>
+    <b>${current.Chinese}</b> (${current.Pinyin}) - ${current.Meaning}`;
     if(!stats.wrongWords.some(w=>w.Chinese===current.Chinese)){
       stats.wrongWords.push(current);
     }
@@ -157,8 +154,7 @@ function speak(){
   speechSynthesis.speak(u);
 }
 
-/* ==== THÊM TỪ ==== */
-
+/* ==== ADD ==== */
 function openAdd(){
  addModal.style.display="block";
  addChinese.value="";
@@ -181,11 +177,10 @@ function saveNewWord(){
  addedWords.push(w);
  localStorage.setItem("addedWords",JSON.stringify(addedWords));
  closeAdd();
- alert("Đã thêm từ mới!");
+ alert("✅ Đã thêm từ!");
 }
 
-/* ==== SỬA ==== */
-
+/* ==== EDIT ==== */
 function openEdit(){
  editModal.style.display="block";
  editChinese.value=current.Chinese;
@@ -213,13 +208,12 @@ function exportEditedWords(){
 }
 
 /* ==== STATS ==== */
-
 function updateStats(){
- total.textContent="Tổng: "+stats.total;
- correct.textContent="Đúng: "+stats.correct;
- wrong.textContent="Sai: "+stats.wrong;
+ total.textContent="Tổng lượt luyện: "+stats.total;
+ correct.textContent="Trả lời đúng: "+stats.correct;
+ wrong.textContent="Trả lời sai: "+stats.wrong;
  let acc=Math.round(stats.correct/stats.total*100)||0;
- accuracy.textContent="Độ chính xác: "+acc+"%";
+ accuracy.textContent="Tỉ lệ đúng: "+acc+"%";
 }
 
 function saveStats(){
@@ -252,7 +246,7 @@ function toggleLearningMode(){
  nextWord();
 }
 
-/* ==== DARK ==== */
+/* ==== DARK MODE ==== */
 darkToggle.addEventListener("change",()=>{
  document.body.classList.toggle("dark-mode",darkToggle.checked);
  localStorage.setItem("dark",darkToggle.checked);
