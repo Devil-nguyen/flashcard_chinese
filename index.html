@@ -1,83 +1,70 @@
 <!DOCTYPE html>
 <html lang="vi">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Flashcard tiếng Trung</title>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Flashcard tiếng Trung (Offline)</title>
 
 <style>
 body{
- font-family:Arial;
- padding:20px;
- max-width:600px;
- margin:auto;
- background:#fff;
+  font-family: Arial;
+  padding:20px;
+  max-width:600px;
+  margin:auto;
+  background:#fff;
+  color:#000;
 }
-input,select,button{
- font-size:16px;
- margin-top:5px;
-}
+input,select,button{font-size:16px;margin-top:5px;}
 button{margin-right:5px;}
-
-.correct{background:#d4edda;padding:10px;}
-.wrong{background:#f8d7da;padding:10px;}
-
-.dark-mode{
- background:#1e1e1e;
- color:#eee;
-}
+#result.wrong{background:#f8d7da;padding:10px;border-radius:5px;}
+#result.correct{background:#d4edda;padding:10px;border-radius:5px;}
+.dark-mode{background:#1e1e1e;color:#f0f0f0;}
 .dark-mode input,.dark-mode select,.dark-mode button{
- background:#333;
- color:#eee;
- border:1px solid #555;
+  background:#2e2e2e;color:#f0f0f0;border:1px solid #555;
 }
 </style>
 </head>
 
 <body>
 
-<h2>Flashcard tiếng Trung</h2>
+<h2>Flashcard tiếng Trung </h2>
 
+<label>Chế độ học:</label>
 <select id="mode">
-<option value="cn_to_vi">Tiếng Trung → Nghĩa</option>
-<option value="vi_to_cn">Nghĩa → Tiếng Trung</option>
+  <option value="cn_to_vi">Tiếng Trung → Nghĩa</option>
+  <option value="vi_to_cn">Nghĩa → Tiếng Trung</option>
 </select>
 
-<label>
-<input type="checkbox" id="showPinyin" checked> Hiện Pinyin
-</label>
+<label><input type="checkbox" id="showPinyin" checked> Hiện Pinyin</label>
+<label><input type="checkbox" id="darkToggle"> 🌙 Chế độ tối</label>
 
-<label>
-<input type="checkbox" id="darkToggle"> 🌙
-</label>
+<div id="word" style="font-size:24px;margin:10px 0;"></div>
 
-<div id="word" style="font-size:26px;margin:15px 0"></div>
+<input id="answer" placeholder="Nhập câu trả lời..." style="width:100%;"/>
 
-<input id="answer" placeholder="Nhập câu trả lời..." style="width:100%">
+<button onclick="checkAnswer()">🔍 Kiểm tra</button>
+<button onclick="nextWord()">➡️ Tiếp</button>
+<button onclick="speak()">🔊 Đọc pinyin</button>
+<button id="toggleModeBtn" onclick="toggleLearningMode()">📚 Học từ sai</button><br/>
 
-<br>
+<button onclick="resetStats()">♻️ Reset thống kê</button>
+<button onclick="exportWrongWords()">📥 Xuất từ sai</button>
 
-<button onclick="checkAnswer()">Kiểm tra</button>
-<button onclick="nextWord()">Tiếp</button>
-<button onclick="toggleWrongMode()">Học từ sai</button>
+<div id="result" style="margin-top:10px;"></div>
 
-<div id="result"></div>
-
-<hr>
-
+<div id="stats" style="margin-top:20px;background:#f4f4f4;padding:10px;">
 <h3>Thống kê</h3>
 <p id="total"></p>
 <p id="correct"></p>
 <p id="wrong"></p>
 <p id="accuracy"></p>
-
-<h4>Từ sai</h4>
-<ul id="wrongList"></ul>
+<div id="wrong-list"></div>
+</div>
 
 <script>
+
 let vocabList=[];
-let current=null;
-let wrongMode=false;
+let current={};
 
 let stats={
  total:0,
@@ -85,6 +72,9 @@ let stats={
  wrong:0,
  wrongWords:[]
 };
+
+let retryMode=false;
+let retryIndex=0;
 
 fetch("tuvung.json")
 .then(r=>r.json())
@@ -94,63 +84,72 @@ fetch("tuvung.json")
  nextWord();
 });
 
-function normalize(s){
- return s.trim().toLowerCase();
+function normalizeVN(s){
+ return s.normalize("NFC").trim().toLowerCase();
 }
 
 function nextWord(){
- document.getElementById("answer").value="";
- document.getElementById("result").innerHTML="";
+ answer.value="";
+ result.textContent="";
+ result.className="";
 
- if(wrongMode && stats.wrongWords.length>0){
-   current=stats.wrongWords[Math.floor(Math.random()*stats.wrongWords.length)];
+ if(retryMode && stats.wrongWords.length){
+   current=stats.wrongWords[retryIndex % stats.wrongWords.length];
+   retryIndex++;
  }else{
    current=vocabList[Math.floor(Math.random()*vocabList.length)];
  }
- showWord();
+ updateWordDisplay();
+ answer.focus();
 }
 
-function showWord(){
- let text="";
+function updateWordDisplay(){
  if(mode.value==="cn_to_vi"){
-   text=current.Chinese;
-   if(showPinyin.checked){
-     text+=` (${current.Pinyin})`;
-   }
+   word.textContent="Tiếng Trung: "+current.Chinese+
+   (showPinyin.checked?" ("+current.Pinyin+")":"");
  }else{
-   text=current.Meaning;
+   word.textContent="Nghĩa: "+current.Meaning;
  }
- document.getElementById("word").innerText=text;
 }
 
 function checkAnswer(){
- let input=normalize(answer.value);
 
- let correctText=
+ const input=normalizeVN(answer.value);
+
+ const correctText=
  mode.value==="cn_to_vi"
  ? current.Meaning
  : current.Chinese;
 
- let answers=correctText.split(/[,;]+/).map(normalize);
+ const list=
+ correctText
+ .split(/[,;]+/)
+ .map(x=>normalizeVN(x.split("(")[0]));
 
  stats.total++;
 
- if(answers.includes(input)){
+ if(list.includes(input)){
    stats.correct++;
    result.className="correct";
-   result.innerText="✅ Chính xác";
+   result.innerHTML="✅ Chính xác!";
 
+   // xoá khỏi danh sách sai nếu có
    stats.wrongWords=
-   stats.wrongWords.filter(w=>w.Chinese!==current.Chinese);
+   stats.wrongWords.filter(
+     w=>w.Chinese!==current.Chinese
+   );
 
-   setTimeout(nextWord,800);
+   setTimeout(nextWord,1000);
  }else{
    stats.wrong++;
    result.className="wrong";
    result.innerHTML=
-   `❌ Sai<br>${current.Chinese} (${current.Pinyin}) - ${current.Meaning}`;
+   `❌ Sai.<br>
+   <b>${current.Chinese}</b> (${current.Pinyin}) - ${current.Meaning}`;
 
-   if(!stats.wrongWords.some(w=>w.Chinese===current.Chinese)){
+   if(!stats.wrongWords.some(
+     w=>w.Chinese===current.Chinese
+   )){
      stats.wrongWords.push(current);
    }
  }
@@ -159,47 +158,92 @@ function checkAnswer(){
  saveStats();
 }
 
-function updateStats(){
- total.innerText="Tổng: "+stats.total;
- correct.innerText="Đúng: "+stats.correct;
- wrong.innerText="Sai: "+stats.wrong;
-
- let acc=stats.total?Math.round(stats.correct/stats.total*100):0;
- accuracy.innerText="Tỉ lệ đúng: "+acc+"%";
-
- wrongList.innerHTML="";
- stats.wrongWords.forEach(w=>{
-   let li=document.createElement("li");
-   li.innerText=`${w.Chinese} (${w.Pinyin}) - ${w.Meaning}`;
-   wrongList.appendChild(li);
- });
+function speak(){
+ let u=new SpeechSynthesisUtterance(current.Chinese);
+ u.lang="zh-CN";
+ speechSynthesis.speak(u);
 }
 
-function toggleWrongMode(){
- wrongMode=!wrongMode;
- nextWord();
+/* ==== STATS ==== */
+
+function updateStats(){
+ total.textContent="Tổng lượt luyện: "+stats.total;
+ correct.textContent="Trả lời đúng: "+stats.correct;
+ wrong.textContent="Trả lời sai: "+stats.wrong;
+
+ let acc=Math.round(stats.correct/stats.total*100)||0;
+ let wr=Math.round(stats.wrong/stats.total*100)||0;
+ accuracy.textContent="Tỉ lệ đúng: "+acc+"% - Sai: "+wr+"%";
+
+ const listHTML=
+ stats.wrongWords
+ .map(w=>`<li>${w.Chinese} (${w.Pinyin}) - ${w.Meaning}</li>`)
+ .join("");
+
+ wrong-list.innerHTML=
+ listHTML? "<b>Từ sai:</b><ul>"+listHTML+"</ul>" : "";
 }
 
 function saveStats(){
- localStorage.setItem("stats",JSON.stringify(stats));
+ localStorage.setItem("vocabStats",JSON.stringify(stats));
 }
 
 function loadStats(){
- let s=localStorage.getItem("stats");
+ let s=localStorage.getItem("vocabStats");
  if(s) stats=JSON.parse(s);
  updateStats();
 }
+
+function resetStats(){
+ localStorage.removeItem("vocabStats");
+ stats={total:0,correct:0,wrong:0,wrongWords:[]};
+ updateStats();
+}
+
+function exportWrongWords(){
+ if(!stats.wrongWords.length)
+  return alert("Không có từ sai.");
+
+ const text=
+ stats.wrongWords
+ .map(w=>`${w.Chinese} (${w.Pinyin}) - ${w.Meaning}`)
+ .join("\n");
+
+ const blob=new Blob([text],{type:"text/plain"});
+ const a=document.createElement("a");
+ a.href=URL.createObjectURL(blob);
+ a.download="tu_sai.txt";
+ a.click();
+}
+
+function toggleLearningMode(){
+ retryMode=!retryMode;
+ retryIndex=0;
+ nextWord();
+}
+
+/* ==== DARK MODE ==== */
+
+darkToggle.addEventListener("change",()=>{
+ document.body.classList.toggle(
+  "dark-mode",
+  darkToggle.checked
+ );
+ localStorage.setItem("dark",darkToggle.checked);
+});
+
+if(localStorage.getItem("dark")==="true"){
+ darkToggle.checked=true;
+ document.body.classList.add("dark-mode");
+}
+
+mode.onchange=updateWordDisplay;
+showPinyin.onchange=updateWordDisplay;
 
 answer.addEventListener("keyup",e=>{
  if(e.key==="Enter") checkAnswer();
 });
 
-darkToggle.addEventListener("change",()=>{
- document.body.classList.toggle("dark-mode",darkToggle.checked);
-});
-
-mode.onchange=showWord;
-showPinyin.onchange=showWord;
 </script>
 
 </body>
