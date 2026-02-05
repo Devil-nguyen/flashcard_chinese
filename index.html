@@ -27,7 +27,7 @@ button{margin-right:5px;}
 
 <body>
 
-<h2>Flashcard tiếng Trung (Offline)</h2>
+<h2>Flashcard tiếng Trung</h2>
 
 <label>Chế độ học:</label>
 <select id="mode">
@@ -45,7 +45,7 @@ button{margin-right:5px;}
 <button onclick="checkAnswer()">🔍 Kiểm tra</button>
 <button onclick="nextWord()">➡️ Tiếp</button>
 <button onclick="speak()">🔊 Đọc pinyin</button>
-<button id="toggleModeBtn" onclick="toggleLearningMode()">📚 Học từ (Tất cả)</button><br/>
+<button id="toggleModeBtn" onclick="toggleLearningMode()">📚 Học từ sai</button><br/>
 
 <button onclick="resetStats()">♻️ Reset thống kê</button>
 <button onclick="exportWrongWords()">📥 Xuất từ sai</button>
@@ -88,7 +88,7 @@ Nghĩa: <input id="addMeaning"><br/>
 let vocabList=[];
 let current={};
 let stats={total:0,correct:0,wrong:0,wrongWords:[]};
-let retryMode=false,retryList=[],retryIndex=0,recentWords=[],editedWords=[];
+let retryMode=false,recentWords=[],editedWords=[];
 let addedWords = JSON.parse(localStorage.getItem("addedWords")) || [];
 
 fetch("tuvung.json").then(r=>r.json()).then(data=>{
@@ -105,11 +105,13 @@ function nextWord(){
   answer.value="";
   result.textContent="";
   result.className="";
+
   if(retryMode && stats.wrongWords.length){
-    current = stats.wrongWords[retryIndex++ % stats.wrongWords.length];
+    current = stats.wrongWords[Math.floor(Math.random()*stats.wrongWords.length)];
   }else{
     current = vocabList[Math.floor(Math.random()*vocabList.length)];
   }
+
   updateWordDisplay();
   answer.focus();
 }
@@ -134,12 +136,19 @@ function checkAnswer(){
     stats.correct++;
     result.className="correct";
     result.innerHTML="✅ Chính xác!";
+
+    // Xóa khỏi danh sách từ sai nếu có
+    stats.wrongWords = stats.wrongWords.filter(
+      w => w.Chinese !== current.Chinese
+    );
+
     setTimeout(nextWord,1200);
   }else{
     stats.wrong++;
     result.className="wrong";
     result.innerHTML=`❌ Sai.<br>
     <b>${current.Chinese}</b> (${current.Pinyin}) - ${current.Meaning}`;
+
     if(!stats.wrongWords.some(w=>w.Chinese===current.Chinese)){
       stats.wrongWords.push(current);
     }
