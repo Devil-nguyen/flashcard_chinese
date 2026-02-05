@@ -209,11 +209,20 @@ function exportEditedWords(){
 
 /* ==== STATS ==== */
 function updateStats(){
- total.textContent="Tổng lượt luyện: "+stats.total;
- correct.textContent="Trả lời đúng: "+stats.correct;
- wrong.textContent="Trả lời sai: "+stats.wrong;
- let acc=Math.round(stats.correct/stats.total*100)||0;
- accuracy.textContent="Tỉ lệ đúng: "+acc+"%";
+  total.textContent="Tổng lượt luyện: "+stats.total;
+  correct.textContent="Trả lời đúng: "+stats.correct;
+  wrong.textContent="Trả lời sai: "+stats.wrong;
+
+  let acc=Math.round(stats.correct/stats.total*100)||0;
+  let wr=Math.round(stats.wrong/stats.total*100)||0;
+  accuracy.textContent="Tỉ lệ đúng: "+acc+"% - Sai: "+wr+"%";
+
+  const list = stats.wrongWords
+    .map(w => `<li>${w.Chinese} (${w.Pinyin}) - ${w.Meaning}</li>`)
+    .join("");
+
+  document.getElementById("wrong-list").innerHTML =
+    list ? "<b>Từ sai:</b><ul>"+list+"</ul>" : "";
 }
 
 function saveStats(){
