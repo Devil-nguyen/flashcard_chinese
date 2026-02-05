@@ -1,92 +1,77 @@
 <!DOCTYPE html>
-<html lang="vi"><!DOCTYPE html>
 <html lang="vi">
 <head>
-<meta charset="utf-8"/>
-<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-<title>Flashcard Tiếng Trung Offline</title>
-
-<style>
-body{
-  font-family: Arial;
-  padding:20px;
-  max-width:600px;
-  margin:auto;
-}
-input,select,button{
-  font-size:16px;
-  margin-top:5px;
-}
-button{margin-right:5px;}
-#result.correct{background:#d4edda;padding:10px;}
-#result.wrong{background:#f8d7da;padding:10px;}
-.dark-mode{background:#1e1e1e;color:#f0f0f0;}
-.dark-mode input,.dark-mode select,.dark-mode button{
-  background:#2e2e2e;color:white;border:1px solid #555;
-}
-.modal{
-  display:none;
-  position:fixed;
-  top:10%;
-  left:50%;
-  transform:translateX(-50%);
-  background:white;
-  padding:20px;
-  border:1px solid #ccc;
-  z-index:999;
-}
-</style>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Học từ vựng tiếng Trung (Offline)</title>
+  <style>
+    body {
+      font-family: Arial;
+      padding: 20px;
+      max-width: 600px;
+      margin: auto;
+      background-color: white;
+      color: black;
+    }
+    input, select, button {
+      font-size: 16px;
+      margin-top: 5px;
+    }
+    button { margin-right: 5px; }
+    #result.wrong { background:#f8d7da; padding:10px; border-radius:5px; }
+    #result.correct { background:#d4edda; padding:10px; border-radius:5px; }
+    .dark-mode { background:#1e1e1e; color:#f0f0f0; }
+    .dark-mode input,
+    .dark-mode select,
+    .dark-mode button {
+      background:#2e2e2e;
+      color:white;
+      border:1px solid #555;
+    }
+  </style>
 </head>
 
 <body>
 
-<h2>📘 Flashcard Tiếng Trung (Offline)</h2>
+<h2>Flashcard tiếng Trung (Offline)</h2>
 
+<label>Chế độ học: </label>
 <select id="mode">
-  <option value="cn_to_vi">Trung → Việt</option>
-  <option value="vi_to_cn">Việt → Trung</option>
+  <option value="cn_to_vi">Tiếng Trung → Nghĩa</option>
+  <option value="vi_to_cn">Nghĩa → Tiếng Trung</option>
 </select>
 
-<label><input type="checkbox" id="showPinyin" checked> Hiện Pinyin</label>
-<label><input type="checkbox" id="darkToggle"> 🌙 Dark</label>
+<label><input id="showPinyin" type="checkbox" checked/> Hiện Pinyin</label>
+<label><input type="checkbox" id="darkToggle"/> 🌙 Chế độ tối</label>
 
-<div id="word" style="font-size:24px;margin:10px 0"></div>
-<input id="answer" placeholder="Nhập câu trả lời..." style="width:100%">
+<div id="word" style="font-size:24px;margin:10px 0;"></div>
 
-<button onclick="checkAnswer()">Kiểm tra</button>
-<button onclick="nextWord()">Tiếp</button>
-<button onclick="speak()">🔊</button>
-<button onclick="toggleLearningMode()">Từ sai</button>
-<br><br>
+<input id="answer" placeholder="Nhập câu trả lời..." style="width:100%;" />
 
-<button onclick="openAdd()">➕ Thêm từ</button>
-<button onclick="openEdit()">✏️ Sửa từ</button>
-<button onclick="exportWrongWords()">📥 Xuất từ sai</button>
+<button onclick="checkAnswer()">🔍 Kiểm tra</button>
+<button onclick="nextWord()">➡️ Tiếp</button>
+<button onclick="speak()">🔊 Đọc</button>
+<button id="toggleModeBtn" onclick="toggleLearningMode()">📚 Học từ (Tất cả)</button><br/>
+
 <button onclick="resetStats()">♻️ Reset</button>
+<button onclick="exportWrongWords()">📥 Xuất từ sai</button>
+<button onclick="openEdit()">✏️ Sửa từ</button>
+<button onclick="exportEditedWords()">📤 Xuất từ đã sửa</button>
+<button onclick="openAdd()">➕ Thêm từ mới</button>
 
 <div id="result"></div>
 
 <div id="stats">
-<h3>Thống kê</h3>
-<p id="total"></p>
-<p id="correct"></p>
-<p id="wrong"></p>
-<p id="accuracy"></p>
-<div id="wrong-list"></div>
+  <h3>Thống kê</h3>
+  <p id="total"></p>
+  <p id="correct"></p>
+  <p id="wrong"></p>
+  <p id="accuracy"></p>
+  <div id="wrong-list"></div>
 </div>
 
-<!-- ADD MODAL -->
-<div class="modal" id="addModal">
-<h3>Thêm từ mới</h3>
-Chinese <input id="addChinese"><br>
-Pinyin <input id="addPinyin"><br>
-Meaning <input id="addMeaning"><br>
-<button onclick="saveNewWord()">Lưu</button>
-<button onclick="closeAdd()">Hủy</button>
-</div>
-
-<!-- EDIT MODAL -->
-<div class="modal" id="editModal">
+<!-- MODAL SỬA -->
+<div id="editModal" style="display:none;position:fixed;top:10%;left:50%;transform:translateX(-50%);background:#fff;padding:20px;border:1px solid #ccc;">
 <h3>Sửa từ</h3>
 Chinese <input id="editChinese"><br>
 Pinyin <input id="editPinyin"><br>
@@ -95,58 +80,64 @@ Meaning <input id="editMeaning"><br>
 <button onclick="closeEdit()">Hủy</button>
 </div>
 
+<!-- MODAL THÊM -->
+<div id="addModal" style="display:none;position:fixed;top:10%;left:50%;transform:translateX(-50%);background:#fff;padding:20px;border:1px solid #ccc;">
+<h3>Thêm từ mới</h3>
+Chinese <input id="addChinese"><br>
+Pinyin <input id="addPinyin"><br>
+Meaning <input id="addMeaning"><br>
+<button onclick="saveNewWord()">Lưu</button>
+<button onclick="closeAdd()">Hủy</button>
+</div>
+
 <script>
 let vocabList=[];
 let current={};
 let stats={total:0,correct:0,wrong:0,wrongWords:[]};
-let retryMode=false,retryList=[],retryIndex=0,recentWords=[];
-let addedWords=JSON.parse(localStorage.getItem("addedWords"))||[];
+let retryMode=false,retryList=[],retryIndex=0,recentWords=[],editedWords=[];
+let addedWords = JSON.parse(localStorage.getItem("addedWords")) || [];
 
-fetch("tuvung.json")
-.then(r=>r.json())
-.then(data=>{
-  vocabList=data.concat(addedWords);
+fetch('tuvung.json').then(r=>r.json()).then(data=>{
+  vocabList = data.concat(addedWords);
   loadStats();
   nextWord();
 });
 
-function normalize(s){
-  return s.trim().toLowerCase();
+function normalizeVN(str){
+  return str.trim().toLowerCase();
 }
 
 function nextWord(){
-  answer.value="";
   result.textContent="";
-  let w;
+  answer.value="";
   if(retryMode && stats.wrongWords.length){
-    w=stats.wrongWords[retryIndex++%stats.wrongWords.length];
+    current = stats.wrongWords[retryIndex++ % stats.wrongWords.length];
   }else{
-    w=vocabList[Math.floor(Math.random()*vocabList.length)];
+    current = vocabList[Math.floor(Math.random()*vocabList.length)];
   }
-  current=w;
-  showWord();
+  updateWordDisplay();
   answer.focus();
 }
 
-function showWord(){
+function updateWordDisplay(){
   if(mode.value==="cn_to_vi"){
-    word.textContent=current.Chinese+
-      (showPinyin.checked?" ("+current.Pinyin+")":"");
+    word.textContent=current.Chinese+(showPinyin.checked?" ("+current.Pinyin+")":"");
   }else{
     word.textContent=current.Meaning;
   }
 }
 
 function checkAnswer(){
-  let input=normalize(answer.value);
-  let correct=mode.value==="cn_to_vi"?current.Meaning:current.Chinese;
-  let list=correct.split(",").map(normalize);
+  const input=normalizeVN(answer.value);
+  const correct = mode.value==="cn_to_vi"?current.Meaning:current.Chinese;
+  const list = correct.split(",").map(normalizeVN);
 
   stats.total++;
+
   if(list.includes(input)){
     stats.correct++;
     result.className="correct";
-    result.textContent="✅ Đúng!";
+    result.textContent="✅ Chính xác!";
     setTimeout(nextWord,1200);
   }else{
     stats.wrong++;
@@ -166,7 +157,7 @@ function speak(){
   speechSynthesis.speak(u);
 }
 
-/* ===== ADD WORD ===== */
+/* ==== THÊM TỪ ==== */
 
 function openAdd(){
  addModal.style.display="block";
@@ -174,22 +165,26 @@ function openAdd(){
  addPinyin.value="";
  addMeaning.value="";
 }
-function closeAdd(){addModal.style.display="none";}
+function closeAdd(){ addModal.style.display="none"; }
 
 function saveNewWord(){
  let w={
-  Chinese:addChinese.value,
-  Pinyin:addPinyin.value,
-  Meaning:addMeaning.value
+  Chinese:addChinese.value.trim(),
+  Pinyin:addPinyin.value.trim(),
+  Meaning:addMeaning.value.trim()
  };
+ if(!w.Chinese||!w.Pinyin||!w.Meaning){
+  alert("Nhập đủ thông tin!");
+  return;
+ }
  vocabList.push(w);
  addedWords.push(w);
  localStorage.setItem("addedWords",JSON.stringify(addedWords));
  closeAdd();
- alert("Đã thêm!");
+ alert("Đã thêm từ mới!");
 }
 
-/* ===== EDIT ===== */
+/* ==== SỬA ==== */
 
 function openEdit(){
  editModal.style.display="block";
@@ -202,11 +197,22 @@ function saveEdit(){
  current.Chinese=editChinese.value;
  current.Pinyin=editPinyin.value;
  current.Meaning=editMeaning.value;
+ editedWords.push({...current});
+ updateWordDisplay();
  closeEdit();
- showWord();
 }
 
-/* ===== STATS ===== */
+function exportEditedWords(){
+ if(!editedWords.length) return alert("Chưa có từ sửa.");
+ const text=editedWords.map(w=>`${w.Chinese} (${w.Pinyin}) - ${w.Meaning}`).join("\n");
+ const blob=new Blob([text],{type:"text/plain"});
+ const a=document.createElement("a");
+ a.href=URL.createObjectURL(blob);
+ a.download="tu_da_sua.txt";
+ a.click();
+}
+
+/* ==== STATS ==== */
 
 function updateStats(){
  total.textContent="Tổng: "+stats.total;
@@ -221,7 +227,7 @@ function saveStats(){
 }
 function loadStats(){
  let s=localStorage.getItem("vocabStats");
- if(s)stats=JSON.parse(s);
+ if(s) stats=JSON.parse(s);
  updateStats();
 }
 
@@ -231,326 +237,38 @@ function resetStats(){
  updateStats();
 }
 
-/* ===== MODE ===== */
+function exportWrongWords(){
+ if(!stats.wrongWords.length) return alert("Không có từ sai.");
+ const text=stats.wrongWords.map(w=>`${w.Chinese} (${w.Pinyin}) - ${w.Meaning}`).join("\n");
+ const blob=new Blob([text],{type:"text/plain"});
+ const a=document.createElement("a");
+ a.href=URL.createObjectURL(blob);
+ a.download="tu_sai.txt";
+ a.click();
+}
 
 function toggleLearningMode(){
  retryMode=!retryMode;
  nextWord();
 }
 
+/* ==== DARK ==== */
 darkToggle.addEventListener("change",()=>{
  document.body.classList.toggle("dark-mode",darkToggle.checked);
  localStorage.setItem("dark",darkToggle.checked);
 });
-
 if(localStorage.getItem("dark")==="true"){
  darkToggle.checked=true;
  document.body.classList.add("dark-mode");
 }
 
-mode.onchange=showWord;
-showPinyin.onchange=showWord;
+mode.onchange=updateWordDisplay;
+showPinyin.onchange=updateWordDisplay;
 
 answer.addEventListener("keyup",e=>{
- if(e.key==="Enter")checkAnswer();
+ if(e.key==="Enter") checkAnswer();
 });
 </script>
 
-</body>
-</html>
-
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Học từ vựng tiếng Trung (Offline)</title>
-  <style>
-    body {
-      font-family: Arial;
-      padding: 20px;
-      max-width: 600px;
-      margin: auto;
-      background-color: white;
-      color: black;
-    }
-    input, select, button {
-      font-size: 16px;
-      margin-top: 5px;
-    }
-    button {
-      margin-right: 5px;
-    }
-    #result.wrong {
-      background-color: #f8d7da;
-      padding: 10px;
-      border-radius: 5px;
-    }
-    #result.correct {
-      background-color: #d4edda;
-      padding: 10px;
-      border-radius: 5px;
-    }
-    .dark-mode {
-      background-color: #1e1e1e;
-      color: #f0f0f0;
-    }
-    .dark-mode input,
-    .dark-mode select,
-    .dark-mode button {
-      background-color: #2e2e2e;
-      color: #f0f0f0;
-      border: 1px solid #555;
-    }
-    @media (max-width: 480px) {
-      button {
-        display: block;
-        width: 100%;
-        margin-top: 5px;
-      }
-    }
-  </style>
-</head>
-<body>
-  <h2>Flashcard tiếng Trung (Offline)</h2>
-  <label>Chế độ học: </label>
-  <select id="mode">
-    <option value="cn_to_vi">Tiếng Trung → Nghĩa</option>
-    <option value="vi_to_cn">Nghĩa → Tiếng Trung</option>
-  </select>
-  <label><input id="showPinyin" type="checkbox" checked/> Hiện Pinyin</label>
-  <label><input type="checkbox" id="darkToggle"/> 🌙 Chế độ tối</label>
-
-  <div id="word" style="font-size:24px; margin:10px 0;"></div>
-  <input id="answer" placeholder="Nhập câu trả lời..." type="text" style="width:100%;" />
-  <button onclick="checkAnswer()">🔍Kiểm tra</button>
-  <button onclick="nextWord()">➡️Tiếp</button>
-  <button onclick="speak()">🔊 Đọc pinyin</button>
-  <button id="toggleModeBtn" onclick="toggleLearningMode()">📚 Học từ (Tất cả)</button><br/>
-  <button onclick="resetStats()">♻️ Reset thống kê</button>
-  <button onclick="exportWrongWords()">📥 Xuất từ sai</button>
-  <button onclick="openEdit()">✏️ Sửa từ hiện tại</button>
-  <button onclick="exportEditedWords()">📤 Xuất từ đã sửa</button>
-
-  <div id="result" style="margin-top:10px;"></div>
-
-  <div id="stats" style="margin-top:20px; background:#f4f4f4; padding:10px;">
-    <h3>Thống kê</h3>
-    <p id="total">Tổng lượt luyện: 0</p>
-    <p id="correct">Trả lời đúng: 0</p>
-    <p id="wrong">Trả lời sai: 0</p>
-    <p id="accuracy">Tỉ lệ đúng: 0% - Sai: 0%</p>
-    <div id="wrong-list"></div>
-  </div>
-
-  <div id="editModal" style="display:none; position:fixed; top:10%; left:50%; transform:translateX(-50%); background:#fff; padding:20px; border:1px solid #ccc; z-index:1000;">
-    <h3>Sửa từ hiện tại</h3>
-    <label>Tiếng Trung: <input id="editChinese" /></label><br/>
-    <label>Pinyin: <input id="editPinyin" /></label><br/>
-    <label>Nghĩa: <input id="editMeaning" /></label><br/>
-    <button onclick="saveEdit()">💾 Lưu</button>
-    <button onclick="closeEdit()">❌ Hủy</button>
-  </div>
-
-  <script>
-    let vocabList = [];
-    let current = {};
-    let stats = { total: 0, correct: 0, wrong: 0, wrongWords: [] };
-    let retryMode = false, retryList = [], retryIndex = 0, recentWords = [], editedWords = [];
-
-    const wordDiv = document.getElementById('word');
-    const resultDiv = document.getElementById('result');
-    const answerInput = document.getElementById('answer');
-    const modeSelect = document.getElementById('mode');
-    const showPinyinCheckbox = document.getElementById('showPinyin');
-
-    fetch('tuvung.json').then(res => res.json()).then(data => {
-      vocabList = data;
-      loadStats();
-      nextWord();
-    });
-
-    function normalizeVN(str) {
-      return str.normalize("NFC").trim().toLowerCase();
-    }
-
-    function nextWord() {
-      resultDiv.textContent = '';
-      resultDiv.className = '';
-      answerInput.value = '';
-      answerInput.style.backgroundColor = 'white';
-
-      if (retryMode && retryList.length > 0) {
-        current = retryList[retryIndex % retryList.length];
-        retryIndex++;
-      } else {
-        let candidate;
-        do {
-          candidate = vocabList[Math.floor(Math.random() * vocabList.length)];
-        } while (recentWords.includes(candidate));
-        current = candidate;
-        recentWords.push(current);
-        if (recentWords.length > 10) recentWords.shift();
-      }
-
-      updateWordDisplay();
-    }
-
-    function updateWordDisplay() {
-      if (!current) return;
-      let c = current;
-      wordDiv.textContent = modeSelect.value === 'cn_to_vi'
-        ? `Tiếng Trung: ${c.Chinese} ${showPinyinCheckbox.checked ? '(' + c.Pinyin + ')' : ''}`
-        : `Nghĩa: ${c.Meaning}`;
-    }
-
-    function checkAnswer() {
-      const input = normalizeVN(answerInput.value);
-      const correctText = modeSelect.value === 'cn_to_vi' ? current.Meaning : current.Chinese;
-      const possible = correctText.split(/[,;]+/).map(x => normalizeVN(x.split('(')[0]));
-
-      stats.total++;
-
-      if (possible.includes(input)) {
-        stats.correct++;
-        resultDiv.className = 'correct';
-        resultDiv.innerHTML = `✅ Chính xác!<br><strong>${correctText}</strong>`;
-        answerInput.style.backgroundColor = '#d4edda';
-        updateStats();
-        saveStats();
-        setTimeout(nextWord, 1500);
-      } else {
-        stats.wrong++;
-        resultDiv.className = 'wrong';
-        resultDiv.innerHTML = `❌ Sai. Đáp án đúng:<br>
-          <strong>Tiếng Trung:</strong> ${current.Chinese}<br>
-          <strong>Pinyin:</strong> ${current.Pinyin}<br>
-          <strong>Nghĩa:</strong> ${current.Meaning}`;
-        answerInput.style.backgroundColor = '#f8d7da';
-        stats.wrongWords.push(current);
-        updateStats();
-        saveStats();
-      }
-    }
-
-    function speak() {
-      const utter = new SpeechSynthesisUtterance(current.Pinyin);
-      utter.lang = 'zh-CN';
-      speechSynthesis.speak(utter);
-    }
-
-    function updateStats() {
-      document.getElementById('total').textContent = `Tổng lượt luyện: ${stats.total}`;
-      document.getElementById('correct').textContent = `Trả lời đúng: ${stats.correct}`;
-      document.getElementById('wrong').textContent = `Trả lời sai: ${stats.wrong}`;
-      const acc = stats.total > 0 ? Math.round(100 * stats.correct / stats.total) : 0;
-      const wr = stats.total > 0 ? Math.round(100 * stats.wrong / stats.total) : 0;
-      document.getElementById('accuracy').textContent = `Tỉ lệ đúng: ${acc}% - Sai: ${wr}%`;
-
-      const list = stats.wrongWords.map(w => `<li>${w.Chinese} (${w.Pinyin}) - ${w.Meaning}</li>`).join('');
-      document.getElementById('wrong-list').innerHTML = list ? `<strong>Từ sai:</strong><ul>${list}</ul>` : '';
-    }
-
-    function saveStats() {
-      localStorage.setItem('vocabStats', JSON.stringify(stats));
-    }
-
-    function loadStats() {
-      const saved = localStorage.getItem('vocabStats');
-      if (saved) {
-        stats = JSON.parse(saved);
-        updateStats();
-      }
-    }
-
-    function resetStats() {
-      if (confirm("Xóa toàn bộ thống kê?")) {
-        localStorage.removeItem('vocabStats');
-        stats = { total: 0, correct: 0, wrong: 0, wrongWords: [] };
-        retryMode = false;
-        updateStats();
-        nextWord();
-      }
-    }
-
-    function exportWrongWords() {
-      if (!stats.wrongWords.length) return alert("Không có từ sai.");
-      const text = stats.wrongWords.map(w => `${w.Chinese} (${w.Pinyin}) - ${w.Meaning}`).join('\n');
-      const blob = new Blob([text], { type: 'text/plain' });
-      const link = document.createElement('a');
-      link.href = URL.createObjectURL(blob);
-      link.download = "tu_sai.txt";
-      link.click();
-    }
-
-    function toggleLearningMode() {
-      const btn = document.getElementById('toggleModeBtn');
-      if (retryMode) {
-        retryMode = false;
-        retryIndex = 0;
-        btn.textContent = "📚 Học từ (Tất cả)";
-      } else {
-        if (!stats.wrongWords.length) return alert("Không có từ sai.");
-        retryMode = true;
-        retryList = [...stats.wrongWords];
-        retryIndex = 0;
-        btn.textContent = "📘 Học từ (Từ sai)";
-      }
-      nextWord();
-    }
-
-    function openEdit() {
-      document.getElementById('editChinese').value = current.Chinese;
-      document.getElementById('editPinyin').value = current.Pinyin;
-      document.getElementById('editMeaning').value = current.Meaning;
-      document.getElementById('editModal').style.display = 'block';
-    }
-
-    function closeEdit() {
-      document.getElementById('editModal').style.display = 'none';
-    }
-
-    function saveEdit() {
-      current.Chinese = document.getElementById('editChinese').value;
-      current.Pinyin = document.getElementById('editPinyin').value;
-      current.Meaning = document.getElementById('editMeaning').value;
-      editedWords.push({...current});
-      updateWordDisplay();
-      closeEdit();
-    }
-
-    function exportEditedWords() {
-      if (!editedWords.length) return alert("Chưa có từ nào được sửa.");
-      const text = editedWords.map(w => `${w.Chinese} (${w.Pinyin}) - ${w.Meaning}`).join('\n');
-      const blob = new Blob([text], { type: 'text/plain' });
-      const link = document.createElement('a');
-      link.href = URL.createObjectURL(blob);
-      link.download = "tu_da_sua.txt";
-      link.click();
-    }
-
-    // Nhấn Enter để kiểm tra
-    answerInput.addEventListener("keyup", function(event) {
-      if (event.key === "Enter") {
-        checkAnswer();
-      }
-    });
-
-    // Chuyển chế độ sáng/tối
-    document.getElementById('darkToggle').addEventListener('change', function() {
-      document.body.classList.toggle('dark-mode', this.checked);
-    });
-
-    // Khi thay đổi chế độ học hoặc bật/tắt Pinyin → cập nhật từ hiển thị
-    modeSelect.addEventListener('change', () => {
-      updateWordDisplay();
-      resultDiv.textContent = '';
-      resultDiv.className = '';
-      answerInput.value = '';
-      answerInput.style.backgroundColor = 'white';
-    });
-
-    showPinyinCheckbox.addEventListener('change', () => {
-      updateWordDisplay();
-    });
-  </script>
 </body>
 </html>
